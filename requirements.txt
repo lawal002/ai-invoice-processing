@@ -1,0 +1,25 @@
+# GPU package sources used by the final Windows/Python 3.12 environment.
+--extra-index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu126/
+
+# Django application and document handling
+Django==5.2.15
+Pillow==12.2.0
+pdf2image==1.17.0
+
+# OCR and image preprocessing
+numpy==2.3.5
+opencv-contrib-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+easyocr==1.7.2
+pytesseract==0.3.13
+paddleocr==3.7.0
+paddlepaddle-gpu==3.3.1
+
+# EasyOCR and LayoutLMv3 CUDA stack
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+transformers==4.46.3
+tokenizers==0.20.3
+accelerate==0.34.2
+PyYAML==6.0.2

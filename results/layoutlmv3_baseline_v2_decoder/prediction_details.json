@@ -1,0 +1,482 @@
+[
+  {
+    "document_id": "data/samples/final_eval/chinese_invoices/taxi_0203.jpg",
+    "category": "chinese_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "56256948",
+      "date": "",
+      "vendor_name": "HLJGS",
+      "subtotal": "34.00",
+      "tax_amount": "",
+      "total_amount": "34.00",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "56256948",
+      "date": "2017-09-09",
+      "vendor_name": "黑龙江省国家税务局",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "34.0",
+      "currency": "CNY"
+    },
+    "inference_ms": 330.103
+  },
+  {
+    "document_id": "data/samples/final_eval/chinese_invoices/taxi_0207.jpg",
+    "category": "chinese_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "11142434",
+      "date": "2017-09-27",
+      "vendor_name": "通用机打发票",
+      "subtotal": "",
+      "tax_amount": "3.80",
+      "total_amount": "1.00",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "11142434",
+      "date": "2017-09-27",
+      "vendor_name": "临沂市出租车",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "10.5",
+      "currency": "CNY"
+    },
+    "inference_ms": 85.346
+  },
+  {
+    "document_id": "data/samples/final_eval/chinese_invoices/taxi_0226.jpg",
+    "category": "chinese_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "3127100000000008",
+      "date": "2017-04-20",
+      "vendor_name": "浙江百国家税务局通用机打发票",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "15680213",
+      "date": "2017-04-20",
+      "vendor_name": "浙江省国家税务局",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "16.00",
+      "currency": "CNY"
+    },
+    "inference_ms": 82.901
+  },
+  {
+    "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_001.png",
+    "category": "clean_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "INV-2026-0001",
+      "date": "2026-05-01",
+      "vendor_name": "Blue River Trading Ltd",
+      "subtotal": "210.00",
+      "tax_amount": "21.00",
+      "total_amount": "231.00",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "INV-2026-0001",
+      "date": "2026-05-01",
+      "vendor_name": "Blue River Trading Ltd",
+      "subtotal": "210.0",
+      "tax_amount": "21.0",
+      "total_amount": "231.0",
+      "currency": "USD"
+    },
+    "inference_ms": 81.767
+  },
+  {
+    "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_011.png",
+    "category": "clean_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "INV-2026-0011",
+      "date": "2026-05-31",
+      "vendor_name": "CN VAT INVOICE SAMPLE",
+      "subtotal": "545.00",
+      "tax_amount": "70.85",
+      "total_amount": "615.85",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "INV-2026-0011",
+      "date": "2026-05-31",
+      "vendor_name": "CN VAT INVOICE SAMPLE CN VAT SAMPLE TRADING",
+      "subtotal": "545.00",
+      "tax_amount": "70.85",
+      "total_amount": "615.85",
+      "currency": "CNY"
+    },
+    "inference_ms": 83.505
+  },
+  {
+    "document_id": "data/samples/final_eval/english_invoices/batch1-0526.jpg",
+    "category": "english_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "61987058",
+      "date": "2014-11-13",
+      "vendor_name": "Schneider, Johnston and Aguirre Perry, Elliott and Gray",
+      "subtotal": "342.77",
+      "tax_amount": "34.28",
+      "total_amount": "377.05",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "61987058",
+      "date": "2014-11-13",
+      "vendor_name": "Schneider, Johnston and Aguirre",
+      "subtotal": "342.77",
+      "tax_amount": "34.28",
+      "total_amount": "377.05",
+      "currency": "USD"
+    },
+    "inference_ms": 79.382
+  },
+  {
+    "document_id": "data/samples/final_eval/english_invoices/batch1-1005.jpg",
+    "category": "english_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "72744145",
+      "date": "2016-03-29",
+      "vendor_name": "Elliott, Simon and Taylor Hopkins, Graves and Baker",
+      "subtotal": "2805.00",
+      "tax_amount": "280.50",
+      "total_amount": "3085.50",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "72744145",
+      "date": "2016-03-29",
+      "vendor_name": "Elliott, Simon and Taylor",
+      "subtotal": "2805",
+      "tax_amount": "280.5",
+      "total_amount": "3085.5",
+      "currency": "USD"
+    },
+    "inference_ms": 84.518
+  },
+  {
+    "document_id": "data/samples/final_eval/english_invoices/batch1-1026.jpg",
+    "category": "english_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "28935386",
+      "date": "2017-02-25",
+      "vendor_name": "Bishop Group Mayer, Richardson and Gamble",
+      "subtotal": "2870.01",
+      "tax_amount": "287.00",
+      "total_amount": "3157.01",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "28935386",
+      "date": "2017-02-25",
+      "vendor_name": "Bishop Group",
+      "subtotal": "2870.01",
+      "tax_amount": "287",
+      "total_amount": "3157.01",
+      "currency": "USD"
+    },
+    "inference_ms": 84.813
+  },
+  {
+    "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png",
+    "category": "english_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "NV-626105",
+      "date": "",
+      "vendor_name": "GreenLine",
+      "subtotal": "2.00",
+      "tax_amount": "9239.00",
+      "total_amount": "92390.00",
+      "currency": ""
+    },
+    "ground_truth": {
+      "invoice_number": "INV-626105",
+      "date": "2025-08-02",
+      "vendor_name": "GreenLine Logistics",
+      "subtotal": "92390.0",
+      "tax_amount": "9239.0",
+      "total_amount": "102329.0",
+      "currency": "BDT"
+    },
+    "inference_ms": 83.679
+  },
+  {
+    "document_id": "data/samples/final_eval/fatura/Template14_Instance111.jpg",
+    "category": "fatura",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "Y8M3D-213",
+      "date": "23-Nov-2019",
+      "vendor_name": "VI",
+      "subtotal": "",
+      "tax_amount": "3.00",
+      "total_amount": "1032.06",
+      "currency": "EUR"
+    },
+    "ground_truth": {
+      "invoice_number": "7Y8M3d-213",
+      "date": "23-Nov-2019",
+      "vendor_name": "Faulkner LLC",
+      "subtotal": "3.00",
+      "tax_amount": "2.00",
+      "total_amount": "1032.06",
+      "currency": "EUR"
+    },
+    "inference_ms": 83.47
+  },
+  {
+    "document_id": "data/samples/final_eval/fatura/Template14_Instance121.jpg",
+    "category": "fatura",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "INV78505164",
+      "date": "05-Nov-2010",
+      "vendor_name": "VI",
+      "subtotal": "",
+      "tax_amount": "4.00",
+      "total_amount": "621.98",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "INV78505164",
+      "date": "05-Nov-2010",
+      "vendor_name": "Faulkner LLC",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "621.98",
+      "currency": "USD"
+    },
+    "inference_ms": 83.054
+  },
+  {
+    "document_id": "data/samples/final_eval/fatura/Template14_Instance96.jpg",
+    "category": "fatura",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "INV/95-75/438",
+      "date": "24-Sep-2022",
+      "vendor_name": "VI",
+      "subtotal": "",
+      "tax_amount": "5.00",
+      "total_amount": "886.63",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "INV/95-75/438",
+      "date": "24-Sep-2022",
+      "vendor_name": "Faulkner LLC",
+      "subtotal": "3.00",
+      "tax_amount": "1.00",
+      "total_amount": "886.63",
+      "currency": "USD"
+    },
+    "inference_ms": 83.373
+  },
+  {
+    "document_id": "data/samples/final_eval/fatura/Template16_Instance85.jpg",
+    "category": "fatura",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "1683-469",
+      "date": "29-Jul-2015",
+      "vendor_name": "DSD",
+      "subtotal": "579.80",
+      "tax_amount": "1.00",
+      "total_amount": "589.25",
+      "currency": "USD"
+    },
+    "ground_truth": {
+      "invoice_number": "1683-469",
+      "date": "29-Jul-2015",
+      "vendor_name": "Woods-Gibbs",
+      "subtotal": "579.80",
+      "tax_amount": "48.34",
+      "total_amount": "589.25",
+      "currency": "USD"
+    },
+    "inference_ms": 84.357
+  },
+  {
+    "document_id": "data/samples/final_eval/malaysian_invoices/X51005268400.jpg",
+    "category": "malaysian_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "市水本本家车*本室家车本车本车家室",
+      "date": "",
+      "vendor_name": "RESTORAN HASSANBISTRO",
+      "subtotal": "15.00",
+      "tax_amount": "15.00",
+      "total_amount": "",
+      "currency": "RM"
+    },
+    "ground_truth": {
+      "invoice_number": "C1-0170778",
+      "date": "2017-12-28",
+      "vendor_name": "RESTORAN HASSANBISTRO",
+      "subtotal": "15.0",
+      "tax_amount": "0.0",
+      "total_amount": "15.0",
+      "currency": "RM"
+    },
+    "inference_ms": 83.443
+  },
+  {
+    "document_id": "data/samples/final_eval/malaysian_invoices/X51005337867.jpg",
+    "category": "malaysian_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "THISISNOTA",
+      "date": "22-Mar-18",
+      "vendor_name": "SY LEE.",
+      "subtotal": "25.94",
+      "tax_amount": "1.71",
+      "total_amount": "25.94",
+      "currency": "RM"
+    },
+    "ground_truth": {
+      "invoice_number": "37617",
+      "date": "2018-03-22",
+      "vendor_name": "OLDTOWN WHITE COFFEE",
+      "subtotal": "28.53",
+      "tax_amount": "1.71",
+      "total_amount": "30.25",
+      "currency": "RM"
+    },
+    "inference_ms": 83.08
+  },
+  {
+    "document_id": "data/samples/final_eval/noisy_invoices/taxi_0071.jpg",
+    "category": "noisy_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "29368085",
+      "date": "2017-10-20",
+      "vendor_name": "日出租汽车机打发",
+      "subtotal": "40.00",
+      "tax_amount": "2.25",
+      "total_amount": "18.00",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "29368085",
+      "date": "2017-10-20",
+      "vendor_name": "??????????? / ??????",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "40.0",
+      "currency": "CNY"
+    },
+    "inference_ms": 84.46
+  },
+  {
+    "document_id": "data/samples/final_eval/noisy_invoices/X51005361950.jpg",
+    "category": "noisy_invoices",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "000181747712",
+      "date": "2018-01-24",
+      "vendor_name": "99 SPEED MART S/B 519537-X)",
+      "subtotal": "2.36",
+      "tax_amount": "2.50",
+      "total_amount": "",
+      "currency": "RM"
+    },
+    "ground_truth": {
+      "invoice_number": "18287/102/T0049",
+      "date": "24-01-18",
+      "vendor_name": "99 SPEED MART S/B",
+      "subtotal": "2.36",
+      "tax_amount": "2.36",
+      "total_amount": "2.50",
+      "currency": "RM"
+    },
+    "inference_ms": 85.87
+  },
+  {
+    "document_id": "data/samples/final_eval/vatid/vat_0051.jpg",
+    "category": "vatid",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "",
+      "date": "2017-05-02",
+      "vendor_name": "",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "400.00",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "34861239",
+      "date": "2017-05-02",
+      "vendor_name": "中国航空集团旅业有限公司上海中航泊悦酒店",
+      "subtotal": "377.36",
+      "tax_amount": "22.64",
+      "total_amount": "400.0",
+      "currency": "CNY"
+    },
+    "inference_ms": 83.952
+  },
+  {
+    "document_id": "data/samples/final_eval/vatid/vat_0091.jpg",
+    "category": "vatid",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "09750786",
+      "date": "2017-04-18",
+      "vendor_name": "",
+      "subtotal": "",
+      "tax_amount": "",
+      "total_amount": "",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "9750786",
+      "date": "2017-04-18",
+      "vendor_name": "佳作天成(北京)科技有限公司",
+      "subtotal": "17985.47",
+      "tax_amount": "3057.53",
+      "total_amount": "21043.00",
+      "currency": "CNY"
+    },
+    "inference_ms": 85.832
+  },
+  {
+    "document_id": "data/samples/final_eval/vatid/vat_0095.jpg",
+    "category": "vatid",
+    "method": "layoutlmv3",
+    "prediction": {
+      "invoice_number": "09280798",
+      "date": "2017-05-15",
+      "vendor_name": "",
+      "subtotal": "",
+      "tax_amount": "507.00",
+      "total_amount": "49880.00",
+      "currency": "CNY"
+    },
+    "ground_truth": {
+      "invoice_number": "28394644",
+      "date": "2017-05-15",
+      "vendor_name": "名称北京思腾合力科技有限公司",
+      "subtotal": "42632.48",
+      "tax_amount": "7247.52",
+      "total_amount": "49880.00",
+      "currency": "CNY"
+    },
+    "inference_ms": 84.778
+  }
+]

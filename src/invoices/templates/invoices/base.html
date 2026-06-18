@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Invoice Processing</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f7f9; color: #17202a; }
+    header { background: #12324a; color: white; padding: 16px 28px; display: flex; justify-content: space-between; align-items: center; }
+    header a { color: white; text-decoration: none; margin-left: 16px; }
+    main { max-width: 1120px; margin: 28px auto; padding: 0 20px; }
+    .card { background: white; border: 1px solid #dde2e7; border-radius: 8px; padding: 20px; margin-bottom: 18px; }
+    .btn { display: inline-block; background: #176b87; color: white; padding: 9px 14px; border-radius: 6px; text-decoration: none; border: 0; cursor: pointer; }
+    .btn.secondary { background: #52616b; }
+    .btn.warning { background: #a15c00; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { border-bottom: 1px solid #e4e8ed; text-align: left; padding: 10px; vertical-align: top; }
+    th { background: #eef3f7; }
+    .messages { margin-bottom: 16px; }
+    .message { padding: 10px 12px; border-radius: 6px; background: #eaf6ef; margin-bottom: 8px; }
+    .error { background: #fdecec; color: #8a1f11; }
+    input, textarea { width: 100%; max-width: 520px; padding: 8px; border: 1px solid #ccd3da; border-radius: 5px; }
+    label { display: block; font-weight: 700; margin-top: 12px; }
+    pre { white-space: pre-wrap; background: #f1f3f5; padding: 12px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>AI Invoice Processing</strong>
+    <nav>
+      <a href="{% url 'invoices:dashboard' %}">Dashboard</a>
+      <a href="{% url 'invoices:upload' %}">Upload</a>
+    </nav>
+  </header>
+  <main>
+    {% if messages %}
+      <div class="messages">
+        {% for message in messages %}
+          <div class="message {% if message.tags == 'error' %}error{% endif %}">{{ message }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+dataset_name,source,access_or_license,file_count,annotation_status,intended_use,notes
+Synthetic Clean Invoices,Generated locally for project prototype,Project-created sample data,10,Final field-level labels,training_and_evaluation,Clean layouts retained in the final 83-document dataset.
+Chinese Taxi and Invoice Samples,Local project collection,Use only for academic project evaluation,13,Final field-level labels,training_and_evaluation,Chinese-language adaptability and taxi-invoice coverage.
+English Invoice Samples,Local project collection,Use only for academic project evaluation,15,Final field-level labels,training_and_evaluation,Diverse English invoice layouts.
+FATURA Invoice Dataset,https://zenodo.org/records/8261508,CC BY 4.0,18,Final field-level labels,training_and_evaluation,Selected subset from the public FATURA dataset.
+Malaysian Invoice and Receipt Samples,Local project collection,Use only for academic project evaluation,8,Final field-level labels,training_and_evaluation,Includes RM GST and retail receipt formats.
+Noisy Invoice and Receipt Samples,Local project collection,Use only for academic project evaluation,7,Final field-level labels,training_and_evaluation,Low-quality and difficult OCR cases.
+VATID Chinese VAT-style Dataset,https://github.com/FuxiJia/InvoiceDatasets,Public GitHub repository; verify repository terms,12,Final field-level labels,training_and_evaluation,Chinese VAT-style supplementary subset.
+SCID Scanned Chinese Invoice Dataset,https://davar-lab.github.io/dataset/scid.html,Application required,0,Not included,not_used,Access was optional and did not block the completed project.

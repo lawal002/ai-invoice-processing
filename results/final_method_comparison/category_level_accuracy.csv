@@ -1,0 +1,8 @@
+﻿category,documents,OCR + Regex,Fine-tuned LayoutLMv3,Proposed Layout-Aware Method
+chinese_invoices,3,20.00%,53.33%,93.33%
+clean_invoices,2,71.43%,92.86%,100.00%
+english_invoices,4,25.00%,67.86%,42.86%
+fatura,4,46.15%,61.54%,76.92%
+malaysian_invoices,2,28.57%,42.86%,57.14%
+noisy_invoices,2,36.36%,54.55%,100.00%
+vatid,3,14.29%,38.10%,90.48%

@@ -1,0 +1,8 @@
+﻿field,OCR + Regex,Fine-tuned LayoutLMv3,Proposed Layout-Aware Method
+invoice_number,55.00%,55.00%,90.00%
+date,10.00%,85.00%,85.00%
+vendor_name,21.05%,10.53%,47.37%
+subtotal,26.67%,53.33%,60.00%
+tax_amount,0.00%,46.67%,73.33%
+total_amount,15.00%,60.00%,80.00%
+currency,95.00%,95.00%,90.00%

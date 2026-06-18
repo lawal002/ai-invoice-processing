@@ -1,0 +1,84 @@
+﻿file_path,category,source_dataset,source_note,label_source,license_or_access
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0208.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0209.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0214.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0215.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0216.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0218.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0219.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0225.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing+layout_aware,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/taxi_0227.jpg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/chinese_invoices/WhatsApp Image 2026-06-15 at 7.01.58 PM.jpeg,chinese_invoices,Chinese invoice/taxi samples,final_eval/chinese_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_002.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_003.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_005.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_006.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_007.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_008.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_009.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_010.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,Synthetic starter invoices,final_eval/clean_invoices,manual_existing,project-generated
+data/samples/final_eval/english_invoices/batch1-0001.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0002.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0003.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0005.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0008.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0010.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0507.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0516.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-0528.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,Local project invoice sample,final_eval/english_invoices,layout_aware,local project sample; document source in report
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103101.png,english_invoices,Local project invoice sample,final_eval/english_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103222.png,english_invoices,Local project invoice sample,final_eval/english_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,Local project invoice sample,final_eval/english_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/fatura/Template14_Instance100.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance112.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance120.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance95.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template14_Instance97.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template16_Instance72.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template16_Instance73.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template19_Instance56.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing+layout_aware,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template19_Instance57.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing+layout_aware,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template19_Instance68.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing+layout_aware,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template21_Instance41.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template21_Instance53.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template2_Instance178.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/fatura/Template3_Instance1.jpg,fatura,FATURA Invoice Dataset,final_eval/fatura,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/malaysian_invoices/X00016469622.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005200938.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005255805.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005268262.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005301666.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing+layout_aware,local project sample; document source in report
+data/samples/final_eval/malaysian_invoices/X51005337872.jpg,malaysian_invoices,Local project invoice sample,final_eval/malaysian_invoices,manual_existing+layout_aware,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/X00016469612.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/X51005301667.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/X51005361907.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/X51005361908.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing,local project sample; document source in report
+data/samples/final_eval/noisy_invoices/X51005433494.jpg,noisy_invoices,Local project invoice sample,final_eval/noisy_invoices,manual_existing+layout_aware,local project sample; document source in report
+data/samples/final_eval/vatid/vat_0001.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0090.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0092.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0093.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing+layout_aware,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0096.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0097.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0098.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0099.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms
+data/samples/final_eval/vatid/vat_0100.jpg,vatid,VATID Chinese VAT-style Dataset,final_eval/vatid,manual_existing,local downloaded dataset; use according to dataset terms

@@ -1,0 +1,307 @@
+doc_id,filename,method,field,value,confidence,extraction_method,source_text
+8,starter_invoice_008.png,layout_aware,invoice_number,INV-2026-0008,0.8861,,
+8,starter_invoice_008.png,layout_aware,date,2026-05-22,0.8609,,
+8,starter_invoice_008.png,layout_aware,tax_amount,54.83,0.8862,,
+8,starter_invoice_008.png,layout_aware,subtotal,548.25,0.8689,,
+8,starter_invoice_008.png,layout_aware,total_amount,603.08,0.99,,
+8,starter_invoice_008.png,layout_aware,vat_rate,10%,0.864,,
+8,starter_invoice_008.png,layout_aware,currency,USD,0.8985,,
+8,starter_invoice_008.png,layout_aware,vendor_name,Civic Print Studio,0.9998,,
+8,starter_invoice_008.png,layout_aware,amount_in_words,,0.0,,
+8,starter_invoice_008.png,regex,invoice_number,INV-2026-0008,0.65,,
+8,starter_invoice_008.png,regex,date,2026-05-22,0.65,,
+8,starter_invoice_008.png,regex,tax_amount,3254007,0.65,,
+8,starter_invoice_008.png,regex,subtotal,548.25,0.65,,
+8,starter_invoice_008.png,regex,total_amount,548.25,0.65,,
+8,starter_invoice_008.png,regex,vat_rate,10%,0.65,,
+8,starter_invoice_008.png,regex,currency,USD,0.65,,
+8,starter_invoice_008.png,regex,vendor_name,Civic Print Studio,0.9998,,
+8,starter_invoice_008.png,regex,amount_in_words,,0.0,,
+12,starter_invoice_012.png,layout_aware,invoice_number,INV-2026-0012,0.8758,,
+12,starter_invoice_012.png,layout_aware,date,2026-06-03,0.846,,
+12,starter_invoice_012.png,layout_aware,tax_amount,3254011,0.8835,,
+12,starter_invoice_012.png,layout_aware,subtotal,849.75,0.8254,,
+12,starter_invoice_012.png,layout_aware,total_amount,960.22,0.99,,
+12,starter_invoice_012.png,layout_aware,vat_rate,13%,0.8532,,
+12,starter_invoice_012.png,layout_aware,currency,CNY,0.8912,,
+12,starter_invoice_012.png,layout_aware,vendor_name,"Business Address: 18 Market Road, City Center",0.918,,
+12,starter_invoice_012.png,layout_aware,amount_in_words,,0.0,,
+12,starter_invoice_012.png,regex,invoice_number,INV-2026-0012,0.65,,
+12,starter_invoice_012.png,regex,date,2026-06-03,0.65,,
+12,starter_invoice_012.png,regex,tax_amount,3254011,0.65,,
+12,starter_invoice_012.png,regex,subtotal,849.75,0.65,,
+12,starter_invoice_012.png,regex,total_amount,849.75,0.65,,
+12,starter_invoice_012.png,regex,vat_rate,13%,0.65,,
+12,starter_invoice_012.png,regex,currency,CNY,0.65,,
+12,starter_invoice_012.png,regex,vendor_name,"Business Address: 18 Market Road, City Center",0.668,,
+12,starter_invoice_012.png,regex,amount_in_words,,0.0,,
+13,test.png,layout_aware,tax_amount,9.06,0.8411,,
+13,test.png,layout_aware,subtotal,145.00,0.8972,,
+13,test.png,layout_aware,total_amount,164.06,0.99,,
+13,test.png,layout_aware,invoice_number,,0.0,,
+13,test.png,layout_aware,date,,0.0,,
+13,test.png,layout_aware,vendor_name,,0.0,,
+13,test.png,layout_aware,currency,,0.0,,
+13,test.png,layout_aware,vat_rate,,0.0,,
+13,test.png,layout_aware,amount_in_words,,0.0,,
+13,test.png,regex,tax_amount,6.25,0.65,,
+13,test.png,regex,subtotal,145.00,0.65,,
+13,test.png,regex,total_amount,145.00,0.65,,
+13,test.png,regex,invoice_number,,0.0,,
+13,test.png,regex,date,,0.0,,
+13,test.png,regex,vendor_name,,0.0,,
+13,test.png,regex,currency,,0.0,,
+13,test.png,regex,vat_rate,,0.0,,
+13,test.png,regex,amount_in_words,,0.0,,
+14,X00016469612.jpg,layout_aware,total_amount,900,0.99,,
+14,X00016469612.jpg,layout_aware,invoice_number,,0.0,,
+14,X00016469612.jpg,layout_aware,date,,0.0,,
+14,X00016469612.jpg,layout_aware,vendor_name,,0.0,,
+14,X00016469612.jpg,layout_aware,tax_amount,,0.0,,
+14,X00016469612.jpg,layout_aware,currency,,0.0,,
+14,X00016469612.jpg,layout_aware,subtotal,,0.0,,
+14,X00016469612.jpg,layout_aware,vat_rate,,0.0,,
+14,X00016469612.jpg,layout_aware,amount_in_words,,0.0,,
+14,X00016469612.jpg,regex,total_amount,900,0.65,,
+14,X00016469612.jpg,regex,invoice_number,,0.0,,
+14,X00016469612.jpg,regex,date,,0.0,,
+14,X00016469612.jpg,regex,vendor_name,,0.0,,
+14,X00016469612.jpg,regex,tax_amount,,0.0,,
+14,X00016469612.jpg,regex,currency,,0.0,,
+14,X00016469612.jpg,regex,subtotal,,0.0,,
+14,X00016469612.jpg,regex,vat_rate,,0.0,,
+14,X00016469612.jpg,regex,amount_in_words,,0.0,,
+15,X00016469612.jpg,layout_aware,invoice_number,TDO1167t04,0.8788,label_neighbor_candidate,document no: TDO1167t04
+15,X00016469612.jpg,layout_aware,date,25/12/2018,0.7749,label_neighbor_candidate,date: 25/12p018 8 13.39 PM
+15,X00016469612.jpg,layout_aware,vendor_name,BOOK TA -K (TAMAN DAYA) SDN BHD,0.8132,top_region_vendor_candidate,BOOkTA _k (TAMAN DAYA) SDM BKD
+15,X00016469612.jpg,layout_aware,tax_amount,,0.0,,
+15,X00016469612.jpg,layout_aware,total_amount,9.00,0.9518,label_neighbor_candidate,Round: : Total (RM); 9.00
+15,X00016469612.jpg,layout_aware,currency,RM,0.9018,currency_detection,Round: : Total (RM); 9.00
+15,X00016469612.jpg,layout_aware,subtotal,,0.0,,
+15,X00016469612.jpg,layout_aware,vat_rate,,0.0,,
+15,X00016469612.jpg,layout_aware,amount_in_words,,0.0,,
+15,X00016469612.jpg,regex,invoice_number,TDO1167t04,0.62,regex_baseline,Document No TDO1167t04
+15,X00016469612.jpg,regex,date,25/12/2018,0.62,regex_baseline,Date 25/12p018 8 13.39 P
+15,X00016469612.jpg,regex,total_amount,9.00,0.62,regex_baseline,"Total 9,00"
+15,X00016469612.jpg,regex,currency,RM,0.62,regex_currency,RM
+15,X00016469612.jpg,regex,vendor_name,BOOK TA -K (TAMAN DAYA) SDN BHD,0.6932,regex_top_region_vendor,BOOkTA _k (TAMAN DAYA) SDM BKD
+15,X00016469612.jpg,regex,tax_amount,,0.0,,
+15,X00016469612.jpg,regex,subtotal,,0.0,,
+15,X00016469612.jpg,regex,vat_rate,,0.0,,
+15,X00016469612.jpg,regex,amount_in_words,,0.0,,
+16,X00016469623.jpg,layout_aware,invoice_number,,0.0,,
+16,X00016469623.jpg,layout_aware,date,,0.0,,
+16,X00016469623.jpg,layout_aware,vendor_name,"CO ,KFU BBULI",0.7947,top_region_vendor_candidate,"CO ,KFu Bbuli"
+16,X00016469623.jpg,layout_aware,tax_amount,,0.0,,
+16,X00016469623.jpg,layout_aware,total_amount,,0.0,,
+16,X00016469623.jpg,layout_aware,currency,RM,0.6974,currency_detection,"Tola) Rm 30,91"
+16,X00016469623.jpg,layout_aware,subtotal,,0.0,,
+16,X00016469623.jpg,layout_aware,vat_rate,,0.0,,
+16,X00016469623.jpg,layout_aware,amount_in_words,,0.0,,
+16,X00016469623.jpg,regex,currency,RM,0.62,regex_currency,RM
+16,X00016469623.jpg,regex,vendor_name,"CO ,KFU BBULI",0.6747,regex_top_region_vendor,"CO ,KFu Bbuli"
+16,X00016469623.jpg,regex,invoice_number,,0.0,,
+16,X00016469623.jpg,regex,date,,0.0,,
+16,X00016469623.jpg,regex,tax_amount,,0.0,,
+16,X00016469623.jpg,regex,total_amount,,0.0,,
+16,X00016469623.jpg,regex,subtotal,,0.0,,
+16,X00016469623.jpg,regex,vat_rate,,0.0,,
+16,X00016469623.jpg,regex,amount_in_words,,0.0,,
+17,X51005268400.jpg,layout_aware,invoice_number,,0.0,,
+17,X51005268400.jpg,layout_aware,date,,0.0,,
+17,X51005268400.jpg,layout_aware,vendor_name,TERHTNAL CI,0.6418,top_region_vendor_candidate,TERHTNAL Ci
+17,X51005268400.jpg,layout_aware,tax_amount,6,0.7853,label_neighbor_candidate,"gst: GST Tatal Incl,6* GST Rounding CASH CHIANGE Thank Yuu  Cqne Aqa In 2017-12-"
+17,X51005268400.jpg,layout_aware,total_amount,15.00,0.4911,label_neighbor_candidate,"Total Qty -> Sub Tata] @lscount RH 15,00 0,00"
+17,X51005268400.jpg,layout_aware,currency,,0.0,,
+17,X51005268400.jpg,layout_aware,subtotal,,0.0,,
+17,X51005268400.jpg,layout_aware,vat_rate,,0.0,,
+17,X51005268400.jpg,layout_aware,amount_in_words,,0.0,,
+17,X51005268400.jpg,regex,vendor_name,TERHTNAL CI,0.55,regex_top_region_vendor,TERHTNAL Ci
+17,X51005268400.jpg,regex,invoice_number,,0.0,,
+17,X51005268400.jpg,regex,date,,0.0,,
+17,X51005268400.jpg,regex,tax_amount,,0.0,,
+17,X51005268400.jpg,regex,total_amount,,0.0,,
+17,X51005268400.jpg,regex,currency,,0.0,,
+17,X51005268400.jpg,regex,subtotal,,0.0,,
+17,X51005268400.jpg,regex,vat_rate,,0.0,,
+17,X51005268400.jpg,regex,amount_in_words,,0.0,,
+18,X51005268408.jpg,layout_aware,invoice_number,,0.0,,
+18,X51005268408.jpg,layout_aware,date,,0.0,,
+18,X51005268408.jpg,layout_aware,vendor_name,99 SPEED MAFT S/8 {517537-X),0.5152,top_region_vendor_candidate,99 SPEED MAFT S/8 {517537-X)
+18,X51005268408.jpg,layout_aware,tax_amount,9.61,0.7956,label_neighbor_candidate,"tax: 30, 20 02 9.61"
+18,X51005268408.jpg,layout_aware,total_amount,,0.0,,
+18,X51005268408.jpg,layout_aware,currency,RM,0.6532,currency_detection,Tote] Sales GST Sumxary $ KI Rourding Adjustnerst Rn { Inclusive GST) Aaen Amcun
+18,X51005268408.jpg,layout_aware,subtotal,,0.0,,
+18,X51005268408.jpg,layout_aware,vat_rate,,0.0,,
+18,X51005268408.jpg,layout_aware,amount_in_words,,0.0,,
+18,X51005268408.jpg,regex,currency,RM,0.62,regex_currency,RM
+18,X51005268408.jpg,regex,vendor_name,99 SPEED MAFT S/8 {517537-X),0.55,regex_top_region_vendor,99 SPEED MAFT S/8 {517537-X)
+18,X51005268408.jpg,regex,invoice_number,,0.0,,
+18,X51005268408.jpg,regex,date,,0.0,,
+18,X51005268408.jpg,regex,tax_amount,,0.0,,
+18,X51005268408.jpg,regex,total_amount,,0.0,,
+18,X51005268408.jpg,regex,subtotal,,0.0,,
+18,X51005268408.jpg,regex,vat_rate,,0.0,,
+18,X51005268408.jpg,regex,amount_in_words,,0.0,,
+19,X51005268408.jpg,layout_aware,invoice_number,,0.0,,
+19,X51005268408.jpg,layout_aware,date,20-11-17,0.6688,date_line_candidate,03; Z9PK 562936 20-14-17
+19,X51005268408.jpg,layout_aware,vendor_name,1413-SETIA ALAM 2,0.5878,top_region_vendor_candidate,1413-SETIA ALAM 2
+19,X51005268408.jpg,layout_aware,tax_amount,200.00,0.7797,label_neighbor_candidate,"gst: Roundirig Adjustrent Rounding RH change Ra Cash RK R 19. 78 J89,80 200.00 3"
+19,X51005268408.jpg,layout_aware,total_amount,200.00,0.6047,label_neighbor_candidate,Tota] Sales (Inclusive GST) R Roundirig Adjustrent Rounding RH change Ra Cash RK
+19,X51005268408.jpg,layout_aware,currency,USD,0.6301,currency_detection,2973 PeozASURE COMPLETE 5zs 069 KILO zkG 2893 DISNEV 0S112 NIDE NECK 2709' ZING 
+19,X51005268408.jpg,layout_aware,subtotal,,0.0,,
+19,X51005268408.jpg,layout_aware,vat_rate,,0.0,,
+19,X51005268408.jpg,layout_aware,amount_in_words,,0.0,,
+19,X51005268408.jpg,regex,currency,USD,0.62,regex_currency,USD
+19,X51005268408.jpg,regex,vendor_name,1413-SETIA ALAM 2,0.55,regex_top_region_vendor,1413-SETIA ALAM 2
+19,X51005268408.jpg,regex,invoice_number,,0.0,,
+19,X51005268408.jpg,regex,date,,0.0,,
+19,X51005268408.jpg,regex,tax_amount,,0.0,,
+19,X51005268408.jpg,regex,total_amount,,0.0,,
+19,X51005268408.jpg,regex,subtotal,,0.0,,
+19,X51005268408.jpg,regex,vat_rate,,0.0,,
+19,X51005268408.jpg,regex,amount_in_words,,0.0,,
+20,X51005268408.jpg,layout_aware,invoice_number,18222/102/70341,0.9265,label_neighbor_candidate,invoice no: 8 18222/102/70341
+20,X51005268408.jpg,layout_aware,date,20-11-17,0.6688,date_line_candidate,03; Z9PK 562936 20-14-17
+20,X51005268408.jpg,layout_aware,vendor_name,99 SFEOO HART S/8 {519537-X),0.7714,top_region_vendor_candidate,99 SFeoo Hart S/8 {519537-X)
+20,X51005268408.jpg,layout_aware,tax_amount,200.00,0.7797,label_neighbor_candidate,"gst: Roundirig Adjustrent Rounding RH change Ra Cash RK R 19. 78 J89,80 200.00 3"
+20,X51005268408.jpg,layout_aware,total_amount,200.00,0.6047,label_neighbor_candidate,Tota] Sales (Inclusive GST) R Roundirig Adjustrent Rounding RH change Ra Cash RK
+20,X51005268408.jpg,layout_aware,currency,RM,0.912,currency_in_total_label,Tota] Sales (Inclusive GST) R Roundirig Adjustrent Rounding RH change Ra Cash RK
+20,X51005268408.jpg,layout_aware,subtotal,,0.0,,
+20,X51005268408.jpg,layout_aware,vat_rate,,0.0,,
+20,X51005268408.jpg,layout_aware,amount_in_words,,0.0,,
+20,X51005268408.jpg,regex,currency,RM,0.62,regex_currency,RM
+20,X51005268408.jpg,regex,vendor_name,99 SFEOO HART S/8 {519537-X),0.6514,regex_top_region_vendor,99 SFeoo Hart S/8 {519537-X)
+20,X51005268408.jpg,regex,invoice_number,,0.0,,
+20,X51005268408.jpg,regex,date,,0.0,,
+20,X51005268408.jpg,regex,tax_amount,,0.0,,
+20,X51005268408.jpg,regex,total_amount,,0.0,,
+20,X51005268408.jpg,regex,subtotal,,0.0,,
+20,X51005268408.jpg,regex,vat_rate,,0.0,,
+20,X51005268408.jpg,regex,amount_in_words,,0.0,,
+21,X51005268408.jpg,layout_aware,invoice_number,18222/102/70341,0.9265,label_neighbor_candidate,invoice no: 8 18222/102/70341
+21,X51005268408.jpg,layout_aware,date,20-11-17,0.6688,date_line_candidate,03; Z9PK 562936 20-14-17
+21,X51005268408.jpg,layout_aware,vendor_name,99 SFEOO HART S/8 {519537-X),0.7714,top_region_vendor_candidate,99 SFeoo Hart S/8 {519537-X)
+21,X51005268408.jpg,layout_aware,tax_amount,200.00,0.0797,label_neighbor_candidate,"gst: Roundirig Adjustrent Rounding RH change Ra Cash RK R 19. 78 J89,80 200.00 3"
+21,X51005268408.jpg,layout_aware,total_amount,200.00,0.2047,label_neighbor_candidate,Tota] Sales (Inclusive GST) R Roundirig Adjustrent Rounding RH change Ra Cash RK
+21,X51005268408.jpg,layout_aware,currency,RM,0.912,currency_in_total_label,Tota] Sales (Inclusive GST) R Roundirig Adjustrent Rounding RH change Ra Cash RK
+21,X51005268408.jpg,layout_aware,subtotal,,0.0,,
+21,X51005268408.jpg,layout_aware,vat_rate,,0.0,,
+21,X51005268408.jpg,layout_aware,amount_in_words,,0.0,,
+21,X51005268408.jpg,regex,currency,RM,0.62,regex_currency,RM
+21,X51005268408.jpg,regex,vendor_name,99 SFEOO HART S/8 {519537-X),0.6514,regex_top_region_vendor,99 SFeoo Hart S/8 {519537-X)
+21,X51005268408.jpg,regex,invoice_number,,0.0,,
+21,X51005268408.jpg,regex,date,,0.0,,
+21,X51005268408.jpg,regex,tax_amount,,0.0,,
+21,X51005268408.jpg,regex,total_amount,,0.0,,
+21,X51005268408.jpg,regex,subtotal,,0.0,,
+21,X51005268408.jpg,regex,vat_rate,,0.0,,
+21,X51005268408.jpg,regex,amount_in_words,,0.0,,
+22,X51005268400.jpg,layout_aware,invoice_number,CI-0170778,0.8498,label_neighbor_candidate,bill no: CI-0170778
+22,X51005268400.jpg,layout_aware,date,,0.0,,
+22,X51005268400.jpg,layout_aware,vendor_name,TERHINAL CI,0.6632,top_region_vendor_candidate,TERHINAL CI
+22,X51005268400.jpg,layout_aware,tax_amount,15.00,0.0937,label_neighbor_candidate,gst: GST 6* Total Rounding CASH Thank You Come Aqa In 2017-12-28 22: |7PM Inc| .
+22,X51005268400.jpg,layout_aware,total_amount,15.00,0.5896,label_neighbor_candidate,"Tota| aty -> 0iscount Sub Total Rr RM 15.00 0,00"
+22,X51005268400.jpg,layout_aware,currency,RM,0.9075,currency_in_total_label,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+22,X51005268400.jpg,layout_aware,subtotal,15.00,0.8244,label_neighbor_candidate,"0iscount Sub Total Rr RM 15.00 0,00 -> CHANGE Tota| Exc|.6* GST GST 6* Total Rou"
+22,X51005268400.jpg,layout_aware,vat_rate,,0.0,,
+22,X51005268400.jpg,layout_aware,amount_in_words,,0.0,,
+22,X51005268400.jpg,regex,tax_amount,6,0.62,regex_baseline,GST 6
+22,X51005268400.jpg,regex,currency,RM,0.62,regex_currency,RM
+22,X51005268400.jpg,regex,vendor_name,TERHINAL CI,0.55,regex_top_region_vendor,TERHINAL CI
+22,X51005268400.jpg,regex,invoice_number,,0.0,,
+22,X51005268400.jpg,regex,date,,0.0,,
+22,X51005268400.jpg,regex,total_amount,,0.0,,
+22,X51005268400.jpg,regex,subtotal,,0.0,,
+22,X51005268400.jpg,regex,vat_rate,,0.0,,
+22,X51005268400.jpg,regex,amount_in_words,,0.0,,
+23,X51005268400.jpg,layout_aware,invoice_number,CI-0170778,0.8498,label_neighbor_candidate,bill no: CI-0170778
+23,X51005268400.jpg,layout_aware,date,,0.0,,
+23,X51005268400.jpg,layout_aware,vendor_name,TERHINAL CI,0.6632,top_region_vendor_candidate,TERHINAL CI
+23,X51005268400.jpg,layout_aware,tax_amount,15.00,0.0937,label_neighbor_candidate,gst: GST 6* Total Rounding CASH Thank You Come Aqa In 2017-12-28 22: |7PM Inc| .
+23,X51005268400.jpg,layout_aware,total_amount,15.00,0.5896,label_neighbor_candidate,"Tota| aty -> 0iscount Sub Total Rr RM 15.00 0,00"
+23,X51005268400.jpg,layout_aware,currency,RM,0.9075,currency_in_total_label,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+23,X51005268400.jpg,layout_aware,subtotal,15.00,0.8244,label_neighbor_candidate,"0iscount Sub Total Rr RM 15.00 0,00 -> CHANGE Tota| Exc|.6* GST GST 6* Total Rou"
+23,X51005268400.jpg,layout_aware,vat_rate,,0.0,,
+23,X51005268400.jpg,layout_aware,amount_in_words,,0.0,,
+23,X51005268400.jpg,regex,tax_amount,6,0.62,regex_baseline,GST 6
+23,X51005268400.jpg,regex,currency,RM,0.62,regex_currency,RM
+23,X51005268400.jpg,regex,vendor_name,TERHINAL CI,0.55,regex_top_region_vendor,TERHINAL CI
+23,X51005268400.jpg,regex,invoice_number,,0.0,,
+23,X51005268400.jpg,regex,date,,0.0,,
+23,X51005268400.jpg,regex,total_amount,,0.0,,
+23,X51005268400.jpg,regex,subtotal,,0.0,,
+23,X51005268400.jpg,regex,vat_rate,,0.0,,
+23,X51005268400.jpg,regex,amount_in_words,,0.0,,
+24,X51005268400.jpg,layout_aware,invoice_number,CI-0170778,0.8498,label_neighbor_candidate,bill no: CI-0170778
+24,X51005268400.jpg,layout_aware,date,,0.0,,
+24,X51005268400.jpg,layout_aware,vendor_name,TERHINAL CI,0.6632,top_region_vendor_candidate,TERHINAL CI
+24,X51005268400.jpg,layout_aware,tax_amount,15.00,0.0937,label_neighbor_candidate,gst: GST 6* Total Rounding CASH Thank You Come Aqa In 2017-12-28 22: |7PM Inc| .
+24,X51005268400.jpg,layout_aware,total_amount,15.00,0.5896,label_neighbor_candidate,"Tota| aty -> 0iscount Sub Total Rr RM 15.00 0,00"
+24,X51005268400.jpg,layout_aware,currency,RM,0.9075,currency_in_total_label,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+24,X51005268400.jpg,layout_aware,subtotal,15.00,0.8244,label_neighbor_candidate,"0iscount Sub Total Rr RM 15.00 0,00 -> CHANGE Tota| Exc|.6* GST GST 6* Total Rou"
+24,X51005268400.jpg,layout_aware,vat_rate,,0.0,,
+24,X51005268400.jpg,layout_aware,amount_in_words,,0.0,,
+24,X51005268400.jpg,regex,tax_amount,6,0.62,regex_baseline,GST 6
+24,X51005268400.jpg,regex,currency,RM,0.62,regex_currency,RM
+24,X51005268400.jpg,regex,vendor_name,TERHINAL CI,0.55,regex_top_region_vendor,TERHINAL CI
+24,X51005268400.jpg,regex,invoice_number,,0.0,,
+24,X51005268400.jpg,regex,date,,0.0,,
+24,X51005268400.jpg,regex,total_amount,,0.0,,
+24,X51005268400.jpg,regex,subtotal,,0.0,,
+24,X51005268400.jpg,regex,vat_rate,,0.0,,
+24,X51005268400.jpg,regex,amount_in_words,,0.0,,
+25,X51005268400.jpg,layout_aware,invoice_number,CI-0170778,0.8498,label_neighbor_candidate,bill no: CI-0170778
+25,X51005268400.jpg,layout_aware,date,2017-12-28,0.6358,date_line_candidate,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+25,X51005268400.jpg,layout_aware,vendor_name,SHAT | AM,0.6397,top_region_vendor_candidate,SHAt | AM
+25,X51005268400.jpg,layout_aware,tax_amount,0.00,0.7835,reverse_consistency_candidate,"0iscount Sub Total Rr RM 15.00 0,00"
+25,X51005268400.jpg,layout_aware,total_amount,15.00,0.5896,label_neighbor_candidate,"Tota| aty -> 0iscount Sub Total Rr RM 15.00 0,00"
+25,X51005268400.jpg,layout_aware,currency,RM,0.9075,currency_in_total_label,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+25,X51005268400.jpg,layout_aware,subtotal,15.00,0.8244,label_neighbor_candidate,"0iscount Sub Total Rr RM 15.00 0,00 -> CHANGE Tota| Exc|.6* GST GST 6* Total Rou"
+25,X51005268400.jpg,layout_aware,vat_rate,,0.0,,
+25,X51005268400.jpg,layout_aware,amount_in_words,,0.0,,
+25,X51005268400.jpg,regex,tax_amount,6,0.62,regex_baseline,GST 6
+25,X51005268400.jpg,regex,currency,RM,0.62,regex_currency,RM
+25,X51005268400.jpg,regex,vendor_name,SHAT | AM,0.55,regex_top_region_vendor,SHAt | AM
+25,X51005268400.jpg,regex,invoice_number,,0.0,,
+25,X51005268400.jpg,regex,date,,0.0,,
+25,X51005268400.jpg,regex,total_amount,,0.0,,
+25,X51005268400.jpg,regex,subtotal,,0.0,,
+25,X51005268400.jpg,regex,vat_rate,,0.0,,
+25,X51005268400.jpg,regex,amount_in_words,,0.0,,
+26,X51005268400.jpg,layout_aware,invoice_number,CI-0170778,0.8498,label_neighbor_candidate,bill no: CI-0170778
+26,X51005268400.jpg,layout_aware,date,2017-12-28,0.6358,date_line_candidate,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+26,X51005268400.jpg,layout_aware,vendor_name,"U 13/0 SET' ""L AM 40170",0.6777,top_region_vendor_candidate,"U 13/0 SET' ""l AM  40170"
+26,X51005268400.jpg,layout_aware,tax_amount,0.00,0.7835,reverse_consistency_candidate,"0iscount Sub Total Rr RM 15.00 0,00"
+26,X51005268400.jpg,layout_aware,total_amount,15.00,0.5896,label_neighbor_candidate,"Tota| aty -> 0iscount Sub Total Rr RM 15.00 0,00"
+26,X51005268400.jpg,layout_aware,currency,RM,0.9075,currency_in_total_label,CHANGE Tota| Exc|.6* GST GST 6* Total Rounding CASH Thank You Come Aqa In 2017-1
+26,X51005268400.jpg,layout_aware,subtotal,15.00,0.8244,label_neighbor_candidate,"0iscount Sub Total Rr RM 15.00 0,00 -> CHANGE Tota| Exc|.6* GST GST 6* Total Rou"
+26,X51005268400.jpg,layout_aware,vat_rate,,0.0,,
+26,X51005268400.jpg,layout_aware,amount_in_words,,0.0,,
+26,X51005268400.jpg,regex,tax_amount,6,0.62,regex_baseline,GST 6
+26,X51005268400.jpg,regex,currency,RM,0.62,regex_currency,RM
+26,X51005268400.jpg,regex,vendor_name,"U 13/0 SET' ""L AM 40170",0.5577,regex_top_region_vendor,"U 13/0 SET' ""l AM  40170"
+26,X51005268400.jpg,regex,invoice_number,,0.0,,
+26,X51005268400.jpg,regex,date,,0.0,,
+26,X51005268400.jpg,regex,total_amount,,0.0,,
+26,X51005268400.jpg,regex,subtotal,,0.0,,
+26,X51005268400.jpg,regex,vat_rate,,0.0,,
+26,X51005268400.jpg,regex,amount_in_words,,0.0,,
+27,X51005301659.jpg,layout_aware,invoice_number,22/12/2017,0.8709,label_neighbor_candidate,Involce Nlo:: CS67332 -> Date 22/12/2017 14.03
+27,X51005301659.jpg,layout_aware,date,22/12/2017,0.8091,label_neighbor_candidate,date: 22/12/2017 14.03
+27,X51005301659.jpg,layout_aware,vendor_name,HOME MASTER KARDWARE &,0.7171,top_region_vendor_candidate,HOME MASTeR KARDWARE &
+27,X51005301659.jpg,layout_aware,tax_amount,0.90,0.9577,financial_constraint_engine,SR 6% 15.00 0.90
+27,X51005301659.jpg,layout_aware,total_amount,15.90,0.973,financial_constraint_engine,Total Amt Rounded 15.90
+27,X51005301659.jpg,layout_aware,currency,RM,0.7111,currency_detection,RM Code
+27,X51005301659.jpg,layout_aware,subtotal,15.00,0.9577,financial_constraint_engine,SR 6% 15.00 0.90
+27,X51005301659.jpg,layout_aware,vat_rate,,0.0,,
+27,X51005301659.jpg,layout_aware,amount_in_words,,0.0,,
+27,X51005301659.jpg,regex,date,22/12/2017,0.62,regex_baseline,Date 22/12/2017 14.03
+27,X51005301659.jpg,regex,tax_amount,15.90,0.62,regex_baseline,GST 15.90
+27,X51005301659.jpg,regex,currency,RM,0.62,regex_currency,RM
+27,X51005301659.jpg,regex,vendor_name,HOME MASTER KARDWARE &,0.5971,regex_top_region_vendor,HOME MASTeR KARDWARE &
+27,X51005301659.jpg,regex,invoice_number,,0.0,,
+27,X51005301659.jpg,regex,total_amount,,0.0,,
+27,X51005301659.jpg,regex,subtotal,,0.0,,
+27,X51005301659.jpg,regex,vat_rate,,0.0,,
+27,X51005301659.jpg,regex,amount_in_words,,0.0,,

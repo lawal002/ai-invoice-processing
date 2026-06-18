@@ -1,0 +1,20 @@
+{
+  "ground_truth_file": "data/annotations/final_eval/manual_ground_truth.csv",
+  "total_rows": 83,
+  "labeled_rows": 83,
+  "skipped_unlabeled_rows": 0,
+  "rows_needing_manual_label": 0,
+  "required_label_fields": [
+    "invoice_number",
+    "date",
+    "vendor_name",
+    "total_amount",
+    "currency"
+  ],
+  "missing_labeled_files": [],
+  "methods": [
+    "layout_aware",
+    "regex"
+  ],
+  "ready_to_run": true
+}

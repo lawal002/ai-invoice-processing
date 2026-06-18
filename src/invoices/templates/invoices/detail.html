@@ -1,0 +1,49 @@
+{% extends "invoices/base.html" %}
+{% block content %}
+<div class="card">
+  <h1>{{ document.original_filename }}</h1>
+  <p>Status: <strong>{{ document.status }}</strong></p>
+  {% if document.error_message %}<p class="error">{{ document.error_message }}</p>{% endif %}
+  <a class="btn" href="{% url 'invoices:process' document.pk %}">Process OCR + extraction</a>
+  {% if layout_result %}<a class="btn secondary" href="{% url 'invoices:review' document.pk %}">Review extracted fields</a>{% endif %}
+  {% if review %}
+    <a class="btn secondary" href="{% url 'invoices:export' document.pk 'csv' %}">Export CSV</a>
+    <a class="btn secondary" href="{% url 'invoices:export' document.pk 'json' %}">Export JSON</a>
+  {% endif %}
+</div>
+
+{% if regex_result %}
+<div class="card">
+  <h2>OCR + Regex Baseline</h2>
+  <pre>{{ regex_result.fields }}</pre>
+  <h3>Anomalies</h3>
+  <pre>{{ regex_result.anomalies }}</pre>
+</div>
+{% endif %}
+
+{% if layout_result %}
+<div class="card">
+  <h2>Proposed Layout-Aware Method</h2>
+  <pre>{{ layout_result.fields }}</pre>
+  <h3>Confidence</h3>
+  <pre>{{ layout_result.confidences }}</pre>
+  <h3>Anomalies</h3>
+  <pre>{{ layout_result.anomalies }}</pre>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2>OCR Tokens</h2>
+  <table>
+    <thead><tr><th>Text</th><th>Confidence</th><th>Box</th></tr></thead>
+    <tbody>
+      {% for token in ocr_tokens %}
+        <tr><td>{{ token.text }}</td><td>{{ token.confidence }}</td><td>{{ token.x1 }}, {{ token.y1 }}, {{ token.x2 }}, {{ token.y2 }}</td></tr>
+      {% empty %}
+        <tr><td colspan="3">No OCR tokens yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+

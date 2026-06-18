@@ -1,0 +1,12 @@
+{% extends "invoices/base.html" %}
+{% block content %}
+<div class="card">
+  <h1>Upload Invoice or Receipt</h1>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn" type="submit">Upload</button>
+  </form>
+</div>
+{% endblock %}
+

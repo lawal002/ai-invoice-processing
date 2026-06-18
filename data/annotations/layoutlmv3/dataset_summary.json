@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-06-17T13:20:31.937659+00:00",
+  "ground_truth": "data/annotations/final_eval/manual_ground_truth.csv",
+  "output_dir": "data/annotations/layoutlmv3",
+  "coverage_output_dir": "not_preserved_after_final_cleanup",
+  "ocr_engine": "paddleocr",
+  "train_ratio": 0.75,
+  "seed": 42,
+  "label_list": [
+    "O",
+    "B-INVOICE_NUMBER",
+    "I-INVOICE_NUMBER",
+    "B-DATE",
+    "I-DATE",
+    "B-VENDOR_NAME",
+    "I-VENDOR_NAME",
+    "B-SUBTOTAL",
+    "I-SUBTOTAL",
+    "B-TAX_AMOUNT",
+    "I-TAX_AMOUNT",
+    "B-TOTAL_AMOUNT",
+    "I-TOTAL_AMOUNT",
+    "B-CURRENCY",
+    "I-CURRENCY"
+  ],
+  "total_labeled_rows": 83,
+  "train_examples": 63,
+  "eval_examples": 20,
+  "category_split_counts": {
+    "chinese_invoices": {
+      "eval": 3,
+      "train": 10
+    },
+    "clean_invoices": {
+      "eval": 2,
+      "train": 8
+    },
+    "english_invoices": {
+      "train": 11,
+      "eval": 4
+    },
+    "fatura": {
+      "train": 14,
+      "eval": 4
+    },
+    "malaysian_invoices": {
+      "train": 6,
+      "eval": 2
+    },
+    "noisy_invoices": {
+      "eval": 2,
+      "train": 5
+    },
+    "vatid": {
+      "train": 9,
+      "eval": 3
+    }
+  },
+  "train_label_counts": {
+    "B-CURRENCY": 25,
+    "B-DATE": 50,
+    "B-INVOICE_NUMBER": 61,
+    "B-SUBTOTAL": 36,
+    "B-TAX_AMOUNT": 45,
+    "B-TOTAL_AMOUNT": 55,
+    "B-VENDOR_NAME": 62,
+    "I-DATE": 1,
+    "I-VENDOR_NAME": 15,
+    "O": 4443
+  },
+  "eval_label_counts": {
+    "B-CURRENCY": 9,
+    "B-DATE": 18,
+    "B-INVOICE_NUMBER": 20,
+    "B-SUBTOTAL": 11,
+    "B-TAX_AMOUNT": 15,
+    "B-TOTAL_AMOUNT": 18,
+    "B-VENDOR_NAME": 19,
+    "I-VENDOR_NAME": 1,
+    "O": 1479
+  },
+  "label_coverage": {
+    "ready_to_train": false,
+    "fields": {
+      "invoice_number": {
+        "ground_truth_fields": 83,
+        "matched_fields": 81,
+        "missed_fields": 2,
+        "coverage": 0.9759036144578314,
+        "minimum_required": 0.7,
+        "passes_minimum": true,
+        "missed_reasons": {
+          "no_candidate_above_threshold": 2
+        }
+      },
+      "date": {
+        "ground_truth_fields": 83,
+        "matched_fields": 68,
+        "missed_fields": 15,
+        "coverage": 0.8192771084337349,
+        "minimum_required": 0.7,
+        "passes_minimum": true,
+        "missed_reasons": {
+          "no_candidate_above_threshold": 13,
+          "span_overlaps_existing_label": 2
+        }
+      },
+      "vendor_name": {
+        "ground_truth_fields": 83,
+        "matched_fields": 81,
+        "missed_fields": 2,
+        "coverage": 0.9759036144578314,
+        "minimum_required": 0.5,
+        "passes_minimum": true,
+        "missed_reasons": {
+          "no_candidate_above_threshold": 1,
+          "no_candidate": 1
+        }
+      },
+      "subtotal": {
+        "ground_truth_fields": 63,
+        "matched_fields": 47,
+        "missed_fields": 16,
+        "coverage": 0.746031746031746,
+        "minimum_required": 0.45,
+        "passes_minimum": true,
+        "missed_reasons": {
+          "span_overlaps_existing_label": 6,
+          "no_candidate_above_threshold": 10
+        }
+      },
+      "tax_amount": {
+        "ground_truth_fields": 61,
+        "matched_fields": 60,
+        "missed_fields": 1,
+        "coverage": 0.9836065573770492,
+        "minimum_required": 0.45,
+        "passes_minimum": true,
+        "missed_reasons": {
+          "no_candidate_above_threshold": 1
+        }
+      },
+      "total_amount": {
+        "ground_truth_fields": 83,
+        "matched_fields": 73,
+        "missed_fields": 10,
+        "coverage": 0.8795180722891566,
+        "minimum_required": 0.75,
+        "passes_minimum": true,
+        "missed_reasons": {
+          "no_candidate_above_threshold": 10
+        }
+      },
+      "currency": {
+        "ground_truth_fields": 83,
+        "matched_fields": 34,
+        "missed_fields": 49,
+        "coverage": 0.40963855421686746,
+        "minimum_required": 0.7,
+        "passes_minimum": false,
+        "missed_reasons": {
+          "span_overlaps_existing_label": 43,
+          "no_candidate_above_threshold": 6
+        }
+      }
+    }
+  },
+  "errors": [],
+  "outputs": {
+    "train_jsonl": "data/annotations/layoutlmv3/train.jsonl",
+    "eval_jsonl": "data/annotations/layoutlmv3/eval.jsonl",
+    "splits_csv": "data/annotations/layoutlmv3/splits.csv",
+    "summary": "data/annotations/layoutlmv3/dataset_summary.json",
+    "coverage_csv": null,
+    "coverage_json": null
+  }
+}

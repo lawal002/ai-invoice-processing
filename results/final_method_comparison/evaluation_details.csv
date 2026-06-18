@@ -1,0 +1,421 @@
+document_id,category,method,field,ground_truth,prediction,normalized_ground_truth,normalized_prediction,correct,inference_ms,required_human_correction
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,invoice_number,56256948,,56256948,,False,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,date,2017-09-09,,2017-09-09,,False,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,vendor_name,黑龙江省国家税务局,,黑龙江省国家税务局,,False,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,subtotal,,,,,True,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,tax_amount,,,,,True,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,total_amount,34.0,,34.00,,False,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,regex,currency,CNY,CNY,CNY,CNY,True,49.51,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,invoice_number,56256948,56256948,56256948,56256948,True,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,date,2017-09-09,2017-09-09,2017-09-09,2017-09-09,True,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,vendor_name,黑龙江省国家税务局,黑龙江省国家税务局,黑龙江省国家税务局,黑龙江省国家税务局,True,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,subtotal,,,,,True,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,tax_amount,,,,,True,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,total_amount,34.0,7.41,34.00,7.41,False,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layout_aware,currency,CNY,CNY,CNY,CNY,True,2434.397,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,invoice_number,11142434,,11142434,,False,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,date,2017-09-27,,2017-09-27,,False,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,vendor_name,临沂市出租车,,临沂市出租车,,False,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,subtotal,,,,,True,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,tax_amount,,,,,True,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,total_amount,10.5,,10.50,,False,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,regex,currency,CNY,CNY,CNY,CNY,True,21.09,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,invoice_number,11142434,11142434,11142434,11142434,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,date,2017-09-27,2017-09-27,2017-09-27,2017-09-27,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,vendor_name,临沂市出租车,临沂市出租车,临沂市出租车,临沂市出租车,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,subtotal,,,,,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,tax_amount,,,,,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,total_amount,10.5,10.50,10.50,10.50,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layout_aware,currency,CNY,CNY,CNY,CNY,True,1510.193,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,invoice_number,15680213,,15680213,,False,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,date,2017-04-20,,2017-04-20,,False,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,vendor_name,浙江省国家税务局,,浙江省国家税务局,,False,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,subtotal,,,,,True,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,tax_amount,,,,,True,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,total_amount,16.00,,16.00,,False,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,regex,currency,CNY,CNY,CNY,CNY,True,36.589,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,invoice_number,15680213,15680213,15680213,15680213,True,3245.037,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,date,2017-04-20,2017-04-20,2017-04-20,2017-04-20,True,3245.037,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,vendor_name,浙江省国家税务局,浙江省国家税务局,浙江省国家税务局,浙江省国家税务局,True,3245.037,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,subtotal,,,,,True,3245.037,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,tax_amount,,,,,True,3245.037,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,total_amount,16.00,16.00,16.00,16.00,True,3245.037,False
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layout_aware,currency,CNY,CNY,CNY,CNY,True,3245.037,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,invoice_number,INV-2026-0001,INV-2026-0001,INV-2026-0001,INV-2026-0001,True,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,date,2026-05-01,2026-05-01,2026-05-01,2026-05-01,True,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,vendor_name,Blue River Trading Ltd,BLUE RIVER TRADING LTD,blue river trading ltd,blue river trading ltd,True,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,subtotal,210.0,210.00,210.00,210.00,True,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,tax_amount,21.0,3254000,21.00,3254000.00,False,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,total_amount,231.0,210.00,231.00,210.00,False,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,regex,currency,USD,USD,USD,USD,True,19.618,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,invoice_number,INV-2026-0001,INV-2026-0001,INV-2026-0001,INV-2026-0001,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,date,2026-05-01,2026-05-01,2026-05-01,2026-05-01,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,vendor_name,Blue River Trading Ltd,BLUE RIVER TRADING LTD,blue river trading ltd,blue river trading ltd,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,subtotal,210.0,210.00,210.00,210.00,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,tax_amount,21.0,21.00,21.00,21.00,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,total_amount,231.0,231.00,231.00,231.00,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layout_aware,currency,USD,USD,USD,USD,True,1688.613,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,invoice_number,INV-2026-0011,INV-2026-0011,INV-2026-0011,INV-2026-0011,True,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,date,2026-05-31,2026-05-31,2026-05-31,2026-05-31,True,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,vendor_name,CN VAT INVOICE SAMPLE CN VAT SAMPLE TRADING,CN VAT INVOICE SAMPLE CN VAT SAMPLE TRADING,cn vat invoice sample cn vat sample trading,cn vat invoice sample cn vat sample trading,True,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,subtotal,545.00,545.00,545.00,545.00,True,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,tax_amount,70.85,3254010,70.85,3254010.00,False,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,total_amount,615.85,545.00,615.85,545.00,False,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,regex,currency,CNY,CNY,CNY,CNY,True,18.697,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,invoice_number,INV-2026-0011,INV-2026-0011,INV-2026-0011,INV-2026-0011,True,1885.452,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,date,2026-05-31,2026-05-31,2026-05-31,2026-05-31,True,1885.452,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,vendor_name,CN VAT INVOICE SAMPLE CN VAT SAMPLE TRADING,CN VAT INVOICE SAMPLE CN VAT SAMPLE TRADING,cn vat invoice sample cn vat sample trading,cn vat invoice sample cn vat sample trading,True,1885.452,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,subtotal,545.00,545.00,545.00,545.00,True,1885.452,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,tax_amount,70.85,70.85,70.85,70.85,True,1885.452,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,total_amount,615.85,615.85,615.85,615.85,True,1885.452,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layout_aware,currency,CNY,CNY,CNY,CNY,True,1885.452,False
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,invoice_number,61987058,61987058,61987058,61987058,True,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,date,2014-11-13,,2014-11-13,,False,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,vendor_name,"Schneider, Johnston and Aguirre","SCHNEIDER, JOHNSTON AND AGUIRRE PERRY, ELLIOTT AND GRAY 99443 RODRIGUEZ CENTER 3414 CHRISTINA GROVE",schneider johnston and aguirre,schneider johnston and aguirre perry elliott and gray 99443 rodriguez center 3414 christina grove,False,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,subtotal,342.77,,342.77,,False,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,tax_amount,34.28,,34.28,,False,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,total_amount,377.05,342.77,377.05,342.77,False,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,regex,currency,USD,USD,USD,USD,True,25.437,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,invoice_number,61987058,61987058,61987058,61987058,True,3421.868,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,date,2014-11-13,,2014-11-13,,False,3421.868,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,vendor_name,"Schneider, Johnston and Aguirre","SCHNEIDER, JOHNSTON AND AGUIRRE PERRY, ELLIOTT AND GRAY 99443 RODRIGUEZ CENTER 3414 CHRISTINA GROVE",schneider johnston and aguirre,schneider johnston and aguirre perry elliott and gray 99443 rodriguez center 3414 christina grove,False,3421.868,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,subtotal,342.77,26.67,342.77,26.67,False,3421.868,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,tax_amount,34.28,7.62,34.28,7.62,False,3421.868,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,total_amount,377.05,377.05,377.05,377.05,True,3421.868,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layout_aware,currency,USD,USD,USD,USD,True,3421.868,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,invoice_number,72744145,72744145,72744145,72744145,True,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,date,2016-03-29,,2016-03-29,,False,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,vendor_name,"Elliott, Simon and Taylor",SELLER: CLIENT,elliott simon and taylor,seller client,False,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,subtotal,2805,,2805.00,,False,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,tax_amount,280.5,,280.50,,False,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,total_amount,3085.5,2,3085.50,2.00,False,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,regex,currency,USD,USD,USD,USD,True,10.707,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,invoice_number,72744145,72744145,72744145,72744145,True,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,date,2016-03-29,,2016-03-29,,False,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,vendor_name,"Elliott, Simon and Taylor",SELLER: CLIENT,elliott simon and taylor,seller client,False,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,subtotal,2805,805.00,2805.00,805.00,False,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,tax_amount,280.5,280.50,280.50,280.50,True,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,total_amount,3085.5,805.00,3085.50,805.00,False,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layout_aware,currency,USD,USD,USD,USD,True,1754.88,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,invoice_number,28935386,28935386,28935386,28935386,True,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,date,2017-02-25,,2017-02-25,,False,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,vendor_name,Bishop Group,SELLER: CLIENT,bishop group,seller client,False,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,subtotal,2870.01,,2870.01,,False,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,tax_amount,287,,287.00,,False,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,total_amount,3157.01,2,3157.01,2.00,False,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,regex,currency,USD,USD,USD,USD,True,11.76,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,invoice_number,28935386,28935386,28935386,28935386,True,2986.006,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,date,2017-02-25,,2017-02-25,,False,2986.006,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,vendor_name,Bishop Group,SELLER: CLIENT,bishop group,seller client,False,2986.006,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,subtotal,2870.01,1.00,2870.01,1.00,False,2986.006,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,tax_amount,287,1.00,287.00,1.00,False,2986.006,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,total_amount,3157.01,2.00,3157.01,2.00,False,2986.006,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layout_aware,currency,USD,USD,USD,USD,True,2986.006,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,invoice_number,INV-626105,NV-626105,INV-626105,NV-626105,False,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,date,2025-08-02,,2025-08-02,,False,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,vendor_name,GreenLine Logistics,FROM GREENLINE LOGISTICS GREENLINE LOGISTICS,greenline logistics,from greenline logistics greenline logistics,False,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,subtotal,92390.0,92390.00,92390.00,92390.00,True,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,tax_amount,9239.0,,9239.00,,False,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,total_amount,102329.0,92390.00,102329.00,92390.00,False,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,regex,currency,BDT,,BDT,,False,40.903,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,invoice_number,INV-626105,INV-626105,INV-626105,INV-626105,True,5160.926,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,date,2025-08-02,2025-08-02,2025-08-02,2025-08-02,True,5160.926,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,vendor_name,GreenLine Logistics,FROM GREENLINE LOGISTICS GREENLINE LOGISTICS,greenline logistics,from greenline logistics greenline logistics,False,5160.926,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,subtotal,92390.0,92390.00,92390.00,92390.00,True,5160.926,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,tax_amount,9239.0,300.00,9239.00,300.00,False,5160.926,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,total_amount,102329.0,102329.00,102329.00,102329.00,True,5160.926,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layout_aware,currency,BDT,,BDT,,False,5160.926,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,invoice_number,7Y8M3d-213,7Y8M3d-213,7Y8M3D-213,7Y8M3D-213,True,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,date,23-Nov-2019,,2019-11-23,,False,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,vendor_name,Faulkner LLC,VI FAULKNER LLC,faulkner llc,vi faulkner llc,False,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,subtotal,3.00,,3.00,,False,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,tax_amount,2.00,,2.00,,False,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,total_amount,1032.06,1032.06,1032.06,1032.06,True,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,regex,currency,EUR,EUR,EUR,EUR,True,12.152,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,invoice_number,7Y8M3d-213,7Y8M3d-213,7Y8M3D-213,7Y8M3D-213,True,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,date,23-Nov-2019,2019-11-23,2019-11-23,2019-11-23,True,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,vendor_name,Faulkner LLC,VI FAULKNER LLC,faulkner llc,vi faulkner llc,False,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,subtotal,3.00,3.00,3.00,3.00,True,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,tax_amount,2.00,2.00,2.00,2.00,True,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,total_amount,1032.06,1032.06,1032.06,1032.06,True,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layout_aware,currency,EUR,USD,EUR,USD,False,1970.837,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,invoice_number,INV78505164,INV78505164,INV78505164,INV78505164,True,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,date,05-Nov-2010,,2010-11-05,,False,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,vendor_name,Faulkner LLC,INVOICE VI FAULKNER LLC,faulkner llc,invoice vi faulkner llc,False,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,subtotal,,,,,True,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,tax_amount,,,,,True,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,total_amount,621.98,621.98,621.98,621.98,True,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,regex,currency,USD,USD,USD,USD,True,14.982,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,invoice_number,INV78505164,INV78505164,INV78505164,INV78505164,True,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,date,05-Nov-2010,2010-11-05,2010-11-05,2010-11-05,True,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,vendor_name,Faulkner LLC,INVOICE VI FAULKNER LLC,faulkner llc,invoice vi faulkner llc,False,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,subtotal,,,,,True,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,tax_amount,,,,,True,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,total_amount,621.98,621.98,621.98,621.98,True,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layout_aware,currency,USD,USD,USD,USD,True,2043.46,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,invoice_number,INV/95-75/438,INV/95-75/438,INV/95-75/438,INV/95-75/438,True,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,date,24-Sep-2022,,2022-09-24,,False,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,vendor_name,Faulkner LLC,VI FAULKNER LLC,faulkner llc,vi faulkner llc,False,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,subtotal,3.00,,3.00,,False,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,tax_amount,1.00,,1.00,,False,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,total_amount,886.63,886.63,886.63,886.63,True,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,regex,currency,USD,USD,USD,USD,True,13.422,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,invoice_number,INV/95-75/438,INV/95-75/438,INV/95-75/438,INV/95-75/438,True,2226.258,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,date,24-Sep-2022,2022-09-24,2022-09-24,2022-09-24,True,2226.258,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,vendor_name,Faulkner LLC,VI FAULKNER LLC,faulkner llc,vi faulkner llc,False,2226.258,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,subtotal,3.00,3.00,3.00,3.00,True,2226.258,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,tax_amount,1.00,1.00,1.00,1.00,True,2226.258,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,total_amount,886.63,886.63,886.63,886.63,True,2226.258,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layout_aware,currency,USD,USD,USD,USD,True,2226.258,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,invoice_number,1683-469,1683-469,1683-469,1683-469,True,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,date,29-Jul-2015,,2015-07-29,,False,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,vendor_name,Woods-Gibbs,INVOICE,woods gibbs,invoice,False,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,subtotal,579.80,579.80,579.80,579.80,True,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,tax_amount,48.34,,48.34,,False,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,total_amount,589.25,579.80,589.25,579.80,False,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,regex,currency,USD,USD,USD,USD,True,23.195,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,invoice_number,1683-469,1683-469,1683-469,1683-469,True,1809.572,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,date,29-Jul-2015,2015-07-29,2015-07-29,2015-07-29,True,1809.572,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,vendor_name,Woods-Gibbs,INVOICE,woods gibbs,invoice,False,1809.572,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,subtotal,579.80,1.00,579.80,1.00,False,1809.572,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,tax_amount,48.34,48.34,48.34,48.34,True,1809.572,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,total_amount,589.25,589.25,589.25,589.25,True,1809.572,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layout_aware,currency,USD,USD,USD,USD,True,1809.572,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,invoice_number,C1-0170778,C1-0170778,C1-0170778,C1-0170778,True,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,date,2017-12-28,,2017-12-28,,False,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,vendor_name,RESTORAN HASSANBISTRO,RESTORAN HASSANBISTRO,restoran hassanbistro,restoran hassanbistro,True,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,subtotal,15.0,,15.00,,False,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,tax_amount,0.0,6,0.00,6.00,False,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,total_amount,15.0,,15.00,,False,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,regex,currency,RM,RM,RM,RM,True,54.88,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,invoice_number,C1-0170778,C1-0170778,C1-0170778,C1-0170778,True,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,date,2017-12-28,2017-12-28,2017-12-28,2017-12-28,True,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,vendor_name,RESTORAN HASSANBISTRO,RESTORAN HASSANBISTRO,restoran hassanbistro,restoran hassanbistro,True,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,subtotal,15.0,,15.00,,False,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,tax_amount,0.0,,0.00,,False,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,total_amount,15.0,28.22,15.00,28.22,False,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layout_aware,currency,RM,RM,RM,RM,True,4714.455,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,invoice_number,37617,,37617,,False,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,date,2018-03-22,,2018-03-22,,False,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,vendor_name,OLDTOWN WHITE COFFEE,SY LEE. OLDTOWN WHITE COFFEE OLD TOWN KOPITIAM SDN BHD (716269-X),oldtown white coffee,sy lee oldtown white coffee old town kopitiam sdn bhd 716269 x,False,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,subtotal,28.53,25.94,28.53,25.94,False,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,tax_amount,1.71,,1.71,,False,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,total_amount,30.25,25.94,30.25,25.94,False,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,regex,currency,RM,RM,RM,RM,True,30.553,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,invoice_number,37617,,37617,,False,1465.673,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,date,2018-03-22,2018-03-22,2018-03-22,2018-03-22,True,1465.673,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,vendor_name,OLDTOWN WHITE COFFEE,SY LEE. OLDTOWN WHITE COFFEE OLD TOWN KOPITIAM SDN BHD (716269-X),oldtown white coffee,sy lee oldtown white coffee old town kopitiam sdn bhd 716269 x,False,1465.673,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,subtotal,28.53,2.59,28.53,2.59,False,1465.673,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,tax_amount,1.71,1.71,1.71,1.71,True,1465.673,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,total_amount,30.25,30.25,30.25,30.25,True,1465.673,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layout_aware,currency,RM,RM,RM,RM,True,1465.673,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,invoice_number,29368085,,29368085,,False,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,date,2017-10-20,,2017-10-20,,False,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,vendor_name,??????????? / ??????,,,,True,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,subtotal,,,,,True,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,tax_amount,,,,,True,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,total_amount,40.0,,40.00,,False,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,regex,currency,CNY,CNY,CNY,CNY,True,30.712,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,invoice_number,29368085,29368085,29368085,29368085,True,1402.046,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,date,2017-10-20,2017-10-20,2017-10-20,2017-10-20,True,1402.046,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,vendor_name,??????????? / ??????,爱联爱票联爱票关爱票联关票联票局联,,爱联爱票联爱票关爱票联关票联票局联,False,1402.046,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,subtotal,,40.60,,40.60,False,1402.046,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,tax_amount,,7.18,,7.18,False,1402.046,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,total_amount,40.0,40.00,40.00,40.00,True,1402.046,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layout_aware,currency,CNY,CNY,CNY,CNY,True,1402.046,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,invoice_number,18287/102/T0049,18287/102/T0049,18287/102/T0049,18287/102/T0049,True,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,date,24-01-18,,2018-01-24,,False,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,vendor_name,99 SPEED MART S/B,99 SPEED MART S/B,99 speed mart s b,99 speed mart s b,True,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,subtotal,2.36,,2.36,,False,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,tax_amount,2.36,,2.36,,False,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,total_amount,2.50,,2.50,,False,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,regex,currency,RM,RM,RM,RM,True,11.003,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,invoice_number,18287/102/T0049,18287/102/T0049,18287/102/T0049,18287/102/T0049,True,1299.22,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,date,24-01-18,24-01-18,2018-01-24,2018-01-24,True,1299.22,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,vendor_name,99 SPEED MART S/B,99 SPEED MART S/B,99 speed mart s b,99 speed mart s b,True,1299.22,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,subtotal,2.36,2.36,2.36,2.36,True,1299.22,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,tax_amount,2.36,2.36,2.36,2.36,True,1299.22,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,total_amount,2.50,2.50,2.50,2.50,True,1299.22,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layout_aware,currency,RM,RM,RM,RM,True,1299.22,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,invoice_number,34861239,,34861239,,False,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,date,2017-05-02,,2017-05-02,,False,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,vendor_name,中国航空集团旅业有限公司上海中航泊悦酒店,,中国航空集团旅业有限公司上海中航泊悦酒店,,False,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,subtotal,377.36,,377.36,,False,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,tax_amount,22.64,,22.64,,False,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,total_amount,400.0,,400.00,,False,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,regex,currency,CNY,CNY,CNY,CNY,True,44.71,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,invoice_number,34861239,37997962,34861239,37997962,False,4937.981,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,date,2017-05-02,2017-05-02,2017-05-02,2017-05-02,True,4937.981,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,vendor_name,中国航空集团旅业有限公司上海中航泊悦酒店,中国航空集团旅业有限公司,中国航空集团旅业有限公司上海中航泊悦酒店,中国航空集团旅业有限公司,False,4937.981,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,subtotal,377.36,377.36,377.36,377.36,True,4937.981,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,tax_amount,22.64,22.64,22.64,22.64,True,4937.981,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,total_amount,400.0,400.00,400.00,400.00,True,4937.981,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layout_aware,currency,CNY,CNY,CNY,CNY,True,4937.981,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,invoice_number,9750786,,9750786,,False,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,date,2017-04-18,,2017-04-18,,False,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,vendor_name,佳作天成(北京)科技有限公司,,佳作天成 北京 科技有限公司,,False,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,subtotal,17985.47,,17985.47,,False,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,tax_amount,3057.53,,3057.53,,False,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,total_amount,21043.00,,21043.00,,False,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,regex,currency,CNY,CNY,CNY,CNY,True,45.757,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,invoice_number,9750786,9750786,9750786,9750786,True,4791.086,False
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,date,2017-04-18,2017-04-18,2017-04-18,2017-04-18,True,4791.086,False
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,vendor_name,佳作天成(北京)科技有限公司,佳作天成(北京)科技有限公司,佳作天成 北京 科技有限公司,佳作天成 北京 科技有限公司,True,4791.086,False
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,subtotal,17985.47,17985.47,17985.47,17985.47,True,4791.086,False
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,tax_amount,3057.53,3057.53,3057.53,3057.53,True,4791.086,False
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,total_amount,21043.00,21043.00,21043.00,21043.00,True,4791.086,False
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layout_aware,currency,CNY,CNY,CNY,CNY,True,4791.086,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,invoice_number,28394644,,28394644,,False,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,date,2017-05-15,,2017-05-15,,False,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,vendor_name,名称北京思腾合力科技有限公司,,名称北京思腾合力科技有限公司,,False,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,subtotal,42632.48,,42632.48,,False,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,tax_amount,7247.52,,7247.52,,False,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,total_amount,49880.00,,49880.00,,False,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,regex,currency,CNY,CNY,CNY,CNY,True,23.686,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,invoice_number,28394644,28394644,28394644,28394644,True,4235.613,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,date,2017-05-15,2017-05-15,2017-05-15,2017-05-15,True,4235.613,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,vendor_name,名称北京思腾合力科技有限公司,名称北京思腾合力科技有限公司,名称北京思腾合力科技有限公司,名称北京思腾合力科技有限公司,True,4235.613,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,subtotal,42632.48,42632.48,42632.48,42632.48,True,4235.613,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,tax_amount,7247.52,7247.52,7247.52,7247.52,True,4235.613,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,total_amount,49880.00,49880.00,49880.00,49880.00,True,4235.613,False
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layout_aware,currency,CNY,CNY,CNY,CNY,True,4235.613,False
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,invoice_number,56256948,56256948,56256948,56256948,True,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,date,2017-09-09,,2017-09-09,,False,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,vendor_name,黑龙江省国家税务局,HLJGS,黑龙江省国家税务局,hljgs,False,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,subtotal,,34.00,,34.00,False,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,tax_amount,,,,,True,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,total_amount,34.0,34.00,34.00,34.00,True,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0203.jpg,chinese_invoices,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,330.103,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,invoice_number,11142434,11142434,11142434,11142434,True,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,date,2017-09-27,2017-09-27,2017-09-27,2017-09-27,True,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,vendor_name,临沂市出租车,通用机打发票,临沂市出租车,通用机打发票,False,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,subtotal,,,,,True,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,tax_amount,,3.80,,3.80,False,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,total_amount,10.5,1.00,10.50,1.00,False,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0207.jpg,chinese_invoices,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,85.346,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,invoice_number,15680213,3127100000000008,15680213,3127100000000008,False,82.901,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,date,2017-04-20,2017-04-20,2017-04-20,2017-04-20,True,82.901,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,vendor_name,浙江省国家税务局,浙江百国家税务局通用机打发票,浙江省国家税务局,浙江百国家税务局通用机打发票,False,82.901,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,subtotal,,,,,True,82.901,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,tax_amount,,,,,True,82.901,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,total_amount,16.00,,16.00,,False,82.901,True
+data/samples/final_eval/chinese_invoices/taxi_0226.jpg,chinese_invoices,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,82.901,True
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,invoice_number,INV-2026-0001,INV-2026-0001,INV-2026-0001,INV-2026-0001,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,date,2026-05-01,2026-05-01,2026-05-01,2026-05-01,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,vendor_name,Blue River Trading Ltd,Blue River Trading Ltd,blue river trading ltd,blue river trading ltd,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,subtotal,210.0,210.00,210.00,210.00,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,tax_amount,21.0,21.00,21.00,21.00,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,total_amount,231.0,231.00,231.00,231.00,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_001.png,clean_invoices,layoutlmv3,currency,USD,USD,USD,USD,True,81.767,False
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,invoice_number,INV-2026-0011,INV-2026-0011,INV-2026-0011,INV-2026-0011,True,83.505,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,date,2026-05-31,2026-05-31,2026-05-31,2026-05-31,True,83.505,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,vendor_name,CN VAT INVOICE SAMPLE CN VAT SAMPLE TRADING,CN VAT INVOICE SAMPLE,cn vat invoice sample cn vat sample trading,cn vat invoice sample,False,83.505,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,subtotal,545.00,545.00,545.00,545.00,True,83.505,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,tax_amount,70.85,70.85,70.85,70.85,True,83.505,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,total_amount,615.85,615.85,615.85,615.85,True,83.505,True
+data/samples/final_eval/clean_invoices/starter_invoice_011.png,clean_invoices,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,83.505,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,invoice_number,61987058,61987058,61987058,61987058,True,79.382,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,date,2014-11-13,2014-11-13,2014-11-13,2014-11-13,True,79.382,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,vendor_name,"Schneider, Johnston and Aguirre","Schneider, Johnston and Aguirre Perry, Elliott and Gray",schneider johnston and aguirre,schneider johnston and aguirre perry elliott and gray,False,79.382,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,subtotal,342.77,342.77,342.77,342.77,True,79.382,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,tax_amount,34.28,34.28,34.28,34.28,True,79.382,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,total_amount,377.05,377.05,377.05,377.05,True,79.382,True
+data/samples/final_eval/english_invoices/batch1-0526.jpg,english_invoices,layoutlmv3,currency,USD,USD,USD,USD,True,79.382,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,invoice_number,72744145,72744145,72744145,72744145,True,84.518,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,date,2016-03-29,2016-03-29,2016-03-29,2016-03-29,True,84.518,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,vendor_name,"Elliott, Simon and Taylor","Elliott, Simon and Taylor Hopkins, Graves and Baker",elliott simon and taylor,elliott simon and taylor hopkins graves and baker,False,84.518,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,subtotal,2805,2805.00,2805.00,2805.00,True,84.518,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,tax_amount,280.5,280.50,280.50,280.50,True,84.518,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,total_amount,3085.5,3085.50,3085.50,3085.50,True,84.518,True
+data/samples/final_eval/english_invoices/batch1-1005.jpg,english_invoices,layoutlmv3,currency,USD,USD,USD,USD,True,84.518,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,invoice_number,28935386,28935386,28935386,28935386,True,84.813,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,date,2017-02-25,2017-02-25,2017-02-25,2017-02-25,True,84.813,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,vendor_name,Bishop Group,"Bishop Group Mayer, Richardson and Gamble",bishop group,bishop group mayer richardson and gamble,False,84.813,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,subtotal,2870.01,2870.01,2870.01,2870.01,True,84.813,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,tax_amount,287,287.00,287.00,287.00,True,84.813,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,total_amount,3157.01,3157.01,3157.01,3157.01,True,84.813,True
+data/samples/final_eval/english_invoices/batch1-1026.jpg,english_invoices,layoutlmv3,currency,USD,USD,USD,USD,True,84.813,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,invoice_number,INV-626105,NV-626105,INV-626105,NV-626105,False,83.679,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,date,2025-08-02,,2025-08-02,,False,83.679,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,vendor_name,GreenLine Logistics,GreenLine,greenline logistics,greenline,False,83.679,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,subtotal,92390.0,2.00,92390.00,2.00,False,83.679,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,tax_amount,9239.0,9239.00,9239.00,9239.00,True,83.679,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,total_amount,102329.0,92390.00,102329.00,92390.00,False,83.679,True
+data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png,english_invoices,layoutlmv3,currency,BDT,,BDT,,False,83.679,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,invoice_number,7Y8M3d-213,Y8M3D-213,7Y8M3D-213,Y8M3D-213,False,83.47,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,date,23-Nov-2019,23-Nov-2019,2019-11-23,2019-11-23,True,83.47,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,vendor_name,Faulkner LLC,VI,faulkner llc,vi,False,83.47,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,subtotal,3.00,,3.00,,False,83.47,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,tax_amount,2.00,3.00,2.00,3.00,False,83.47,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,total_amount,1032.06,1032.06,1032.06,1032.06,True,83.47,True
+data/samples/final_eval/fatura/Template14_Instance111.jpg,fatura,layoutlmv3,currency,EUR,EUR,EUR,EUR,True,83.47,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,invoice_number,INV78505164,INV78505164,INV78505164,INV78505164,True,83.054,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,date,05-Nov-2010,05-Nov-2010,2010-11-05,2010-11-05,True,83.054,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,vendor_name,Faulkner LLC,VI,faulkner llc,vi,False,83.054,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,subtotal,,,,,True,83.054,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,tax_amount,,4.00,,4.00,False,83.054,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,total_amount,621.98,621.98,621.98,621.98,True,83.054,True
+data/samples/final_eval/fatura/Template14_Instance121.jpg,fatura,layoutlmv3,currency,USD,USD,USD,USD,True,83.054,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,invoice_number,INV/95-75/438,INV/95-75/438,INV/95-75/438,INV/95-75/438,True,83.373,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,date,24-Sep-2022,24-Sep-2022,2022-09-24,2022-09-24,True,83.373,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,vendor_name,Faulkner LLC,VI,faulkner llc,vi,False,83.373,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,subtotal,3.00,,3.00,,False,83.373,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,tax_amount,1.00,5.00,1.00,5.00,False,83.373,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,total_amount,886.63,886.63,886.63,886.63,True,83.373,True
+data/samples/final_eval/fatura/Template14_Instance96.jpg,fatura,layoutlmv3,currency,USD,USD,USD,USD,True,83.373,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,invoice_number,1683-469,1683-469,1683-469,1683-469,True,84.357,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,date,29-Jul-2015,29-Jul-2015,2015-07-29,2015-07-29,True,84.357,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,vendor_name,Woods-Gibbs,DSD,woods gibbs,dsd,False,84.357,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,subtotal,579.80,579.80,579.80,579.80,True,84.357,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,tax_amount,48.34,1.00,48.34,1.00,False,84.357,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,total_amount,589.25,589.25,589.25,589.25,True,84.357,True
+data/samples/final_eval/fatura/Template16_Instance85.jpg,fatura,layoutlmv3,currency,USD,USD,USD,USD,True,84.357,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,invoice_number,C1-0170778,市水本本家车*本室家车本车本车家室,C1-0170778,市水本本家车*本室家车本车本车家室,False,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,date,2017-12-28,,2017-12-28,,False,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,vendor_name,RESTORAN HASSANBISTRO,RESTORAN HASSANBISTRO,restoran hassanbistro,restoran hassanbistro,True,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,subtotal,15.0,15.00,15.00,15.00,True,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,tax_amount,0.0,15.00,0.00,15.00,False,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,total_amount,15.0,,15.00,,False,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005268400.jpg,malaysian_invoices,layoutlmv3,currency,RM,RM,RM,RM,True,83.443,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,invoice_number,37617,THISISNOTA,37617,THISISNOTA,False,83.08,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,date,2018-03-22,22-Mar-18,2018-03-22,2018-03-22,True,83.08,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,vendor_name,OLDTOWN WHITE COFFEE,SY LEE.,oldtown white coffee,sy lee,False,83.08,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,subtotal,28.53,25.94,28.53,25.94,False,83.08,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,tax_amount,1.71,1.71,1.71,1.71,True,83.08,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,total_amount,30.25,25.94,30.25,25.94,False,83.08,True
+data/samples/final_eval/malaysian_invoices/X51005337867.jpg,malaysian_invoices,layoutlmv3,currency,RM,RM,RM,RM,True,83.08,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,invoice_number,29368085,29368085,29368085,29368085,True,84.46,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,date,2017-10-20,2017-10-20,2017-10-20,2017-10-20,True,84.46,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,vendor_name,??????????? / ??????,日出租汽车机打发,,日出租汽车机打发,False,84.46,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,subtotal,,40.00,,40.00,False,84.46,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,tax_amount,,2.25,,2.25,False,84.46,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,total_amount,40.0,18.00,40.00,18.00,False,84.46,True
+data/samples/final_eval/noisy_invoices/taxi_0071.jpg,noisy_invoices,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,84.46,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,invoice_number,18287/102/T0049,000181747712,18287/102/T0049,000181747712,False,85.87,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,date,24-01-18,2018-01-24,2018-01-24,2018-01-24,True,85.87,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,vendor_name,99 SPEED MART S/B,99 SPEED MART S/B 519537-X),99 speed mart s b,99 speed mart s b 519537 x,False,85.87,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,subtotal,2.36,2.36,2.36,2.36,True,85.87,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,tax_amount,2.36,2.50,2.36,2.50,False,85.87,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,total_amount,2.50,,2.50,,False,85.87,True
+data/samples/final_eval/noisy_invoices/X51005361950.jpg,noisy_invoices,layoutlmv3,currency,RM,RM,RM,RM,True,85.87,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,invoice_number,34861239,,34861239,,False,83.952,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,date,2017-05-02,2017-05-02,2017-05-02,2017-05-02,True,83.952,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,vendor_name,中国航空集团旅业有限公司上海中航泊悦酒店,,中国航空集团旅业有限公司上海中航泊悦酒店,,False,83.952,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,subtotal,377.36,,377.36,,False,83.952,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,tax_amount,22.64,,22.64,,False,83.952,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,total_amount,400.0,400.00,400.00,400.00,True,83.952,True
+data/samples/final_eval/vatid/vat_0051.jpg,vatid,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,83.952,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,invoice_number,9750786,09750786,9750786,09750786,False,85.832,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,date,2017-04-18,2017-04-18,2017-04-18,2017-04-18,True,85.832,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,vendor_name,佳作天成(北京)科技有限公司,,佳作天成 北京 科技有限公司,,False,85.832,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,subtotal,17985.47,,17985.47,,False,85.832,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,tax_amount,3057.53,,3057.53,,False,85.832,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,total_amount,21043.00,,21043.00,,False,85.832,True
+data/samples/final_eval/vatid/vat_0091.jpg,vatid,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,85.832,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,invoice_number,28394644,09280798,28394644,09280798,False,84.778,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,date,2017-05-15,2017-05-15,2017-05-15,2017-05-15,True,84.778,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,vendor_name,名称北京思腾合力科技有限公司,,名称北京思腾合力科技有限公司,,False,84.778,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,subtotal,42632.48,,42632.48,,False,84.778,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,tax_amount,7247.52,507.00,7247.52,507.00,False,84.778,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,total_amount,49880.00,49880.00,49880.00,49880.00,True,84.778,True
+data/samples/final_eval/vatid/vat_0095.jpg,vatid,layoutlmv3,currency,CNY,CNY,CNY,CNY,True,84.778,True

@@ -1,0 +1,1344 @@
+{
+  "_metadata": {
+    "evaluation_output_version": "phase3_evaluation_v2",
+    "normalization_version": "field_normalization_v1",
+    "required_document_fields": [
+      "invoice_number",
+      "date",
+      "vendor_name",
+      "total_amount",
+      "currency"
+    ],
+    "generated_at": "2026-06-17T10:32:53.087800+00:00",
+    "ground_truth_file": "data\\annotations\\final_eval\\manual_ground_truth.csv",
+    "label_schema_version": "phase3_manual_ground_truth_v1",
+    "parser_version": "regex_layout_aware_phase3_v1",
+    "ocr_engine": "paddleocr",
+    "methods": [
+      "layout_aware",
+      "regex"
+    ],
+    "total_rows": 83,
+    "labeled_rows": 83,
+    "skipped_unlabeled_rows": 0
+  },
+  "regex": {
+    "field_stats": {
+      "invoice_number": {
+        "accuracy": 0.4819277108433735,
+        "precision": 0.9523809523809523,
+        "recall": 0.4819277108433735,
+        "f1": 0.64,
+        "correct": 40,
+        "actual": 83,
+        "predicted": 42
+      },
+      "date": {
+        "accuracy": 0.21686746987951808,
+        "precision": 0.9473684210526315,
+        "recall": 0.21686746987951808,
+        "f1": 0.35294117647058826,
+        "correct": 18,
+        "actual": 83,
+        "predicted": 19
+      },
+      "vendor_name": {
+        "accuracy": 0.35365853658536583,
+        "precision": 0.48333333333333334,
+        "recall": 0.35365853658536583,
+        "f1": 0.4084507042253521,
+        "correct": 29,
+        "actual": 82,
+        "predicted": 60
+      },
+      "subtotal": {
+        "accuracy": 0.25396825396825395,
+        "precision": 0.8888888888888888,
+        "recall": 0.25396825396825395,
+        "f1": 0.3950617283950617,
+        "correct": 16,
+        "actual": 63,
+        "predicted": 18
+      },
+      "tax_amount": {
+        "accuracy": 0.04918032786885246,
+        "precision": 0.14285714285714285,
+        "recall": 0.04918032786885246,
+        "f1": 0.07317073170731707,
+        "correct": 3,
+        "actual": 61,
+        "predicted": 21
+      },
+      "total_amount": {
+        "accuracy": 0.18072289156626506,
+        "precision": 0.30612244897959184,
+        "recall": 0.18072289156626506,
+        "f1": 0.22727272727272724,
+        "correct": 15,
+        "actual": 83,
+        "predicted": 49
+      },
+      "currency": {
+        "accuracy": 0.9036144578313253,
+        "precision": 1.0,
+        "recall": 0.9036144578313253,
+        "f1": 0.9493670886075949,
+        "correct": 75,
+        "actual": 83,
+        "predicted": 75
+      }
+    },
+    "category_stats": {
+      "chinese_invoices": {
+        "documents": 13,
+        "correct_fields": 13,
+        "labeled_fields": 68,
+        "accuracy": 0.19117647058823528
+      },
+      "clean_invoices": {
+        "documents": 10,
+        "correct_fields": 50,
+        "labeled_fields": 70,
+        "accuracy": 0.7142857142857143
+      },
+      "english_invoices": {
+        "documents": 15,
+        "correct_fields": 32,
+        "labeled_fields": 104,
+        "accuracy": 0.3076923076923077
+      },
+      "fatura": {
+        "documents": 18,
+        "correct_fields": 46,
+        "labeled_fields": 111,
+        "accuracy": 0.4144144144144144
+      },
+      "malaysian_invoices": {
+        "documents": 8,
+        "correct_fields": 23,
+        "labeled_fields": 56,
+        "accuracy": 0.4107142857142857
+      },
+      "noisy_invoices": {
+        "documents": 7,
+        "correct_fields": 20,
+        "labeled_fields": 45,
+        "accuracy": 0.4444444444444444
+      },
+      "vatid": {
+        "documents": 12,
+        "correct_fields": 12,
+        "labeled_fields": 84,
+        "accuracy": 0.14285714285714285
+      }
+    },
+    "document_pass_rate": {
+      "passed_documents": 1,
+      "total_documents": 83,
+      "pass_rate": 0.012048192771084338,
+      "failed_documents": [
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0203.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0207.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0208.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0209.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0214.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0215.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0216.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0218.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0219.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0225.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0226.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0227.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/WhatsApp Image 2026-06-15 at 7.01.58 PM.jpeg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_001.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_002.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_003.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_005.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_006.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_007.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_008.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_009.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_010.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/clean_invoices/starter_invoice_011.png",
+          "category": "clean_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0001.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0002.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0003.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0005.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0008.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0010.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0507.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0516.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0526.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0528.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-1005.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-1026.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103101.png",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103222.png",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png",
+          "category": "english_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance100.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance111.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance112.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance120.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance121.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance95.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance96.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance97.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template16_Instance72.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template16_Instance73.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template16_Instance85.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template19_Instance56.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template19_Instance57.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template19_Instance68.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template21_Instance41.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template21_Instance53.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template2_Instance178.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template3_Instance1.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X00016469622.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005200938.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005255805.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005268262.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005268400.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "date",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005301666.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005337867.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005337872.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/taxi_0071.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005301667.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005361907.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005361908.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005361950.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "date",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005433494.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0001.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0051.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0090.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0091.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0092.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0093.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0095.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0096.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0097.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0098.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0099.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0100.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        }
+      ]
+    },
+    "overall_accuracy": 0.3643122676579926,
+    "average_inference_ms": 5365.407642168526,
+    "human_correction_rate": 1.0
+  },
+  "layout_aware": {
+    "field_stats": {
+      "invoice_number": {
+        "accuracy": 0.891566265060241,
+        "precision": 0.9135802469135802,
+        "recall": 0.891566265060241,
+        "f1": 0.9024390243902438,
+        "correct": 74,
+        "actual": 83,
+        "predicted": 81
+      },
+      "date": {
+        "accuracy": 0.6746987951807228,
+        "precision": 0.7466666666666667,
+        "recall": 0.6746987951807228,
+        "f1": 0.708860759493671,
+        "correct": 56,
+        "actual": 83,
+        "predicted": 75
+      },
+      "vendor_name": {
+        "accuracy": 0.6219512195121951,
+        "precision": 0.6375,
+        "recall": 0.6219512195121951,
+        "f1": 0.6296296296296297,
+        "correct": 51,
+        "actual": 82,
+        "predicted": 80
+      },
+      "subtotal": {
+        "accuracy": 0.6984126984126984,
+        "precision": 0.7096774193548387,
+        "recall": 0.6984126984126984,
+        "f1": 0.704,
+        "correct": 44,
+        "actual": 63,
+        "predicted": 62
+      },
+      "tax_amount": {
+        "accuracy": 0.7213114754098361,
+        "precision": 0.7096774193548387,
+        "recall": 0.7213114754098361,
+        "f1": 0.7154471544715446,
+        "correct": 44,
+        "actual": 61,
+        "predicted": 62
+      },
+      "total_amount": {
+        "accuracy": 0.8072289156626506,
+        "precision": 0.8170731707317073,
+        "recall": 0.8072289156626506,
+        "f1": 0.812121212121212,
+        "correct": 67,
+        "actual": 83,
+        "predicted": 82
+      },
+      "currency": {
+        "accuracy": 0.8674698795180723,
+        "precision": 0.96,
+        "recall": 0.8674698795180723,
+        "f1": 0.9113924050632911,
+        "correct": 72,
+        "actual": 83,
+        "predicted": 75
+      }
+    },
+    "category_stats": {
+      "chinese_invoices": {
+        "documents": 13,
+        "correct_fields": 65,
+        "labeled_fields": 68,
+        "accuracy": 0.9558823529411765
+      },
+      "clean_invoices": {
+        "documents": 10,
+        "correct_fields": 70,
+        "labeled_fields": 70,
+        "accuracy": 1.0
+      },
+      "english_invoices": {
+        "documents": 15,
+        "correct_fields": 49,
+        "labeled_fields": 104,
+        "accuracy": 0.47115384615384615
+      },
+      "fatura": {
+        "documents": 18,
+        "correct_fields": 65,
+        "labeled_fields": 111,
+        "accuracy": 0.5855855855855856
+      },
+      "malaysian_invoices": {
+        "documents": 8,
+        "correct_fields": 42,
+        "labeled_fields": 56,
+        "accuracy": 0.75
+      },
+      "noisy_invoices": {
+        "documents": 7,
+        "correct_fields": 40,
+        "labeled_fields": 45,
+        "accuracy": 0.8888888888888888
+      },
+      "vatid": {
+        "documents": 12,
+        "correct_fields": 77,
+        "labeled_fields": 84,
+        "accuracy": 0.9166666666666666
+      }
+    },
+    "document_pass_rate": {
+      "passed_documents": 41,
+      "total_documents": 83,
+      "pass_rate": 0.4939759036144578,
+      "failed_documents": [
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0203.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/chinese_invoices/taxi_0225.jpg",
+          "category": "chinese_invoices",
+          "failed_fields": [
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0001.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0002.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0005.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0008.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0010.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0507.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0516.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-0526.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-1005.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/batch1-1026.jpg",
+          "category": "english_invoices",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103101.png",
+          "category": "english_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "vendor_name",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103222.png",
+          "category": "english_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/english_invoices/Screenshot 2026-06-15 103509.png",
+          "category": "english_invoices",
+          "failed_fields": [
+            "vendor_name",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance100.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance111.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance112.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance120.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance121.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance95.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance96.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template14_Instance97.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template16_Instance72.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template16_Instance73.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template16_Instance85.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template19_Instance56.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template19_Instance57.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template19_Instance68.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "total_amount",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template21_Instance41.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/fatura/Template21_Instance53.jpg",
+          "category": "fatura",
+          "failed_fields": [
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005200938.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005268262.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005268400.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "total_amount"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005301666.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005337867.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/malaysian_invoices/X51005337872.jpg",
+          "category": "malaysian_invoices",
+          "failed_fields": [
+            "date",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/taxi_0071.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005301667.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/noisy_invoices/X51005433494.jpg",
+          "category": "noisy_invoices",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "currency"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0051.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "vendor_name"
+          ]
+        },
+        {
+          "document_id": "data/samples/final_eval/vatid/vat_0093.jpg",
+          "category": "vatid",
+          "failed_fields": [
+            "invoice_number",
+            "date",
+            "vendor_name",
+            "total_amount"
+          ]
+        }
+      ]
+    },
+    "overall_accuracy": 0.758364312267658,
+    "average_inference_ms": 7905.711980720671,
+    "human_correction_rate": 0.6144578313253012
+  }
+}

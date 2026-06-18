@@ -1,0 +1,4 @@
+﻿method,passed_documents,total_documents,pass_rate
+OCR + Regex,0,20,0.00%
+Fine-tuned LayoutLMv3,1,20,5.00%
+Proposed Layout-Aware Method,7,20,35.00%

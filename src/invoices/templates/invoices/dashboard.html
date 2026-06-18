@@ -1,0 +1,29 @@
+{% extends "invoices/base.html" %}
+{% block content %}
+<div class="card">
+  <h1>Invoice Documents</h1>
+  <p>Upload invoices or receipts, process them with OCR, review extracted fields, and export verified records.</p>
+  <a class="btn" href="{% url 'invoices:upload' %}">Upload document</a>
+</div>
+<div class="card">
+  <h2>Recent Documents</h2>
+  <table>
+    <thead>
+      <tr><th>File</th><th>Status</th><th>Created</th><th></th></tr>
+    </thead>
+    <tbody>
+      {% for document in documents %}
+        <tr>
+          <td>{{ document.original_filename }}</td>
+          <td>{{ document.status }}</td>
+          <td>{{ document.created_at }}</td>
+          <td><a href="{% url 'invoices:detail' document.pk %}">Open</a></td>
+        </tr>
+      {% empty %}
+        <tr><td colspan="4">No documents yet.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+

@@ -1,0 +1,4 @@
+﻿method,overall_accuracy,document_pass_rate,human_correction_rate,average_recorded_time_ms
+OCR + Regex,33.33%,0.00%,100.00%,26.97
+Fine-tuned LayoutLMv3,58.91%,5.00%,95.00%,96.08
+Proposed Layout-Aware Method,75.97%,35.00%,70.00%,2749.18
